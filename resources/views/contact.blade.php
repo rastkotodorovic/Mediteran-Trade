@@ -1,6 +1,16 @@
-@extends ('layout')
+@extends('layout')
 
-@section ('content')
+@section('title', 'Kontakt')
+
+@section('meta')
+
+    <meta name="keywords" content="Kontakt Mediteran Bijeljina, Racunovodstvena Agencija Mediteran kontakt">
+
+    <meta name="description" content="Racunovodstvena agencija u Bijeljini. Usluge:racunovodstvo, knjigovodstvo">
+
+@endsection
+
+@section('content')
 
 <div class="page-title parallax parallax2">
     <div class="title-heading">
@@ -11,7 +21,7 @@
                         <h1 class="h1-title">Kontakt</h1>
                     </div><!-- /.page-title-heading -->
                     <ul class="breadcrumbs">
-                        <li><a href="#" title="">Pocetna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                        <li><a href="/" title="">Pocetna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
                         <li>Kontakt</li>
                     </ul><!-- /.breadcrumbs -->
                 </div>
@@ -31,17 +41,17 @@
                         @csrf
                         <div class="field-row">
                             <div class="one-three">
-                                <p class="input-info"><input type="text" name="name" id="name" value="" placeholder="Ime" required></p>
+                                <p class="input-info"><input type="text" name="name" id="name" value="" placeholder="Ime" required autocomplete="off"></p>
                             </div>
                             <div class="one-three">
-                                <p class="input-info"><input type="email" name="email" id="email" value="" placeholder="Email" required></p>
+                                <p class="input-info"><input type="email" name="email" id="email" value="" placeholder="Email" required autocomplete="off"></p>
                             </div>
                             <div class="one-three">
-                                <p class="input-info"><input type="text" name="subject" id="phone" value="" placeholder="Subjekt" required></p>
+                                <p class="input-info"><input type="text" name="subject" id="phone" value="" placeholder="Tema" required autocomplete="off"></p>
                             </div>
                         </div>
                         <div class="input-text">
-                            <textarea id="message-contact" name="message" placeholder="Poruka" required></textarea>
+                            <textarea id="message-contact" name="message" placeholder="Poruka" required autocomplete="off"></textarea>
                         </div>
                         <div class="btn-submit">
                             <button>Posalji</button>

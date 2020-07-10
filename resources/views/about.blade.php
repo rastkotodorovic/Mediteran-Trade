@@ -1,6 +1,16 @@
-@extends ('layout')
+@extends('layout')
 
-		@section ('content')
+@section('title', 'O nama')
+
+@section('meta')
+
+    <meta name="keywords" content="Mediteran Bijeljina o nama">
+
+    <meta name="description" content="Mediteran je dugogodisnja racunovodstvena firma u Bijeljini sa preko 100 zadovoljnjih klijenata">
+
+@endsection
+
+		@section('content')
 		<div class="page-title parallax parallax2">
 			<div class="title-heading">
 				<div class="container">
@@ -10,7 +20,7 @@
 								<h1 class="h1-title">O nama</h1>
 							</div><!-- /.page-title-heading -->
 							<ul class="breadcrumbs">
-								<li><a href="#" title="">Pocetna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+								<li><a href="/" title="">Pocetna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 								<li>O nama</li>
 							</ul><!-- /.breadcrumbs -->
 						</div>
@@ -24,11 +34,11 @@
 					<div class="wrap-about">
 						<div class="sidebar-about">
 							<div class="widget-nav-tab">
-								<h3>About our company</h3>
+								<h3>nasa agencija</h3>
 								<ul class="tab-about">
-									<li class="active">Over View</li>
-									<li>Our History</li>
-									<li>Team Members</li>
+									<li class="active">O Nama</li>
+									<li>Nasa Istorija</li>
+									<li>Nas Tim</li>
 								</ul>
 							</div>
 							<div class="widget-brochures">
@@ -47,7 +57,7 @@
 						<div class="about-content-tab">
 							<div class="content-inner over-view">
 								<div class="images">
-									<img src="images/about/01.jpg" alt="">
+									<img src="images/about/01.jpg" alt="Kancelarija">
 								</div>
 								<div class="text-about">
 									<h3>Want to know more about Finance Consultant?</h3>
@@ -126,7 +136,7 @@
 								<div class="row-inner">
 									<div class="one-half left">
 										<div class="image">
-											<img src="images/about/02.jpg" alt="">
+											<img src="images/about/02.jpg" alt="Kancelarija">
 										</div>
 									</div>
 									<div class="one-half text right">
@@ -153,7 +163,7 @@
 									</div>
 									<div class="one-half right">
 										<div class="image">
-											<img src="images/about/03.jpg" alt="">
+											<img src="images/about/03.jpg" alt="Kancelarija">
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -222,22 +232,22 @@
 									<div class="col-lg-4 col-sm-6">
 										<div class="team-item">
 											<div class="team-image">
-												<img src="images/team/01.jpg" alt="">
+												<img src="images/team/01.jpg" alt="Cvijeta">
 											</div>
 											<div class="team-content">
 												<div class="name">
-													KAWHI LEONARD
+													Cvijeta Panic
 												</div>
 												<div class="options">
-													Manager
+													Vlasnik
 												</div>
 											</div>
 											<div class="team-content hover">
 												<div class="name">
-													KAWHI LEONARD
+													Cvijeta Panic
 												</div>
 												<div class="options">
-													Manager
+													Vlasnik
 												</div>
 												<ul>
 													<li>
@@ -267,22 +277,22 @@
 									<div class="col-lg-4 col-sm-6">
 										<div class="team-item">
 											<div class="team-image">
-												<img src="images/team/02.jpg" alt="">
+												<img src="images/team/02.jpg" alt="Slavica">
 											</div>
 											<div class="team-content">
 												<div class="name">
-													MANAGIN PAUH
+													Slavica Panic
 												</div>
 												<div class="options">
-													Desinger
+													Knjigovodja
 												</div>
 											</div>
 											<div class="team-content hover">
 												<div class="name">
-													MANAGIN PAUH
+													Slavica Panic
 												</div>
 												<div class="options">
-													Desinger
+													Knjigovodja
 												</div>
 												<ul>
 													<li>

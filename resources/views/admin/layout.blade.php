@@ -3,21 +3,25 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
         Mediteran
     </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+
+    <meta name="robots" content="noindex, nofollow">
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS Files -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/now-ui-dashboard.css?v=1.5.0') }}" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <link href="{{ asset('assets/demo/demo.css') }}" rel="stylesheet" />
+    <script href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 </head>
 
 <body class="">
@@ -27,11 +31,12 @@
                 Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
             -->
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-                    CT
-                </a>
-                <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-                    Creative Tim
+                <a
+                    href="http://www.creative-tim.com"
+                    class="simple-text logo-normal"
+                    style="margin-left:70px;"
+                >
+                    Mediteran
                 </a>
             </div>
             <div class="sidebar-wrapper" id="sidebar-wrapper">
@@ -43,7 +48,7 @@
                     >
                     <a href="{{ route('task.index') }}">
                         <i class="now-ui-icons design_app"></i>
-                        <p>Dashboard</p>
+                        <p>Pocetna</p>
                     </a>
                 </li>
                 <li
@@ -53,7 +58,17 @@
                 >
                 <a href="{{ route('news.index') }}">
                     <i class="now-ui-icons users_single-02"></i>
-                    <p>News</p>
+                    <p>Vijesti</p>
+                </a>
+            </li>
+            <li
+            @if (request()->is('admin/services'))
+            class="active"
+            @endif
+            >
+                <a href="/admin/services">
+                    <i class="now-ui-icons users_single-02"></i>
+                    <p>Usluge</p>
                 </a>
             </li>
             <li
@@ -63,39 +78,32 @@
             >
             <a href="/admin/profile">
                 <i class="now-ui-icons users_single-02"></i>
-                <p>User Profile</p>
+                <p>Profil</p>
             </a>
         </li>
     </ul>
 </div>
 </div>
 <div class="main-panel" id="main-panel">
+    @if (session('status'))
+        <div class="alert alert-success" role="alert">
+            {{ session('status') }}
+        </div>
+    @endif
     @yield ('content')
     <footer class="footer">
         <div class=" container-fluid ">
             <nav>
                 <ul>
                     <li>
-                        <a href="https://www.creative-tim.com">
-                            Creative Tim
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://presentation.creative-tim.com">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://blog.creative-tim.com">
-                            Blog
-                        </a>
+                        Mediteran-Trade
                     </li>
                 </ul>
             </nav>
             <div class="copyright" id="copyright">
                 &copy; <script>
                     document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-                </script>, Designed by <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+                </script>, Designed by <a href="#" target="_blank">Mediteran</a>.
             </div>
         </div>
     </footer>

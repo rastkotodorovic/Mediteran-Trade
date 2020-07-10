@@ -6,7 +6,12 @@
 	<!-- Basic Page Needs -->
 	<meta charset="UTF-8">
 	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-	<title>Mediteran</title>
+	<title>@yield('title') | Racunovodstvena Agencija Mediteran Cvijeta Panic</title>
+
+	@yield('meta')
+    <meta name="keywords" content="Racunovodstvo Bijeljina, Knjigovodstvo Bijeljina, Mediteran Bijeljina, Cvijeta Panic, Racunovodstvena agencija Mediteran">
+
+    <meta name="description" content="Racunovodstvena agencija u Bijeljini. Usluge:racunovodstvo, knjigovodstvo">
 
 	<meta name="author" content="themsflat.com">
 
@@ -103,72 +108,60 @@
         <footer id="footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3 col-md-6">
-						<div class="widget-ft widget-about">
-							<div id="logo-ft">
-								<a href="/" title="">
-									<h1 style="color:#18ba60;">Mediteran</h1>
-								</a>
-							</div>
-							<p>The industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-							</p>
-							<ul class="social">
-								<li>
-									<a href="#" title="">
-										<i class="fa fa-facebook-f"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#" title="">
-										<i class="fa fa-google-plus"></i>
-									</a>
-								</li>
-							</ul>
-						</div><!-- /.widget-text -->
-					</div><!-- /.col-md-3 col-sm-6 -->
-					<div class="col-lg-3 col-md-6">
-						<div class="widget-ft widget-services">
-							<h3 class="title">Linkovi</h3>
-							<ul class="one-half first">
-								<li><a href="/" title="">Pocetna</a></li>
-								<li><a href="about" title="">O nama</a></li>
-								<li><a href="services" title="">Usluge</a></li>
-							</ul><!-- /.one-half -->
-							<ul class="one-half">
-								<li><a href="contact-v1" title="">Kontakt</a></li>
-								<li><a href="news" title="">Vijesti</a></li>
-								<li><a href="about" title="">Nas tim</a></li>
-							</ul><!-- /.one-half -->
-							<div class="clearfix"></div>
-						</div><!-- /.widget-services -->
-					</div><!-- /.col-md-3 col-sm-6 -->
-					<div class="col-lg-3 col-md-6">
-						<div class="widget-ft widget-lastest">
-							<h3 class="title">Latest Twitter</h3>
-							<ul>
-								<li>
-									<a href="#" title=""><i class="fa fa-twitter"></i>@Themesflat</a> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-								</li>
-								<li>
-									<a href="#" title=""><i class="fa fa-twitter"></i>@Samon.D</a> Lorem Ipsum is simply dummy text of the printing and typesetting.Lorem Ipsum is simply dummy.
-								</li>
-							</ul>
-						</div><!-- /.widget-services -->
-					</div><!-- /.col-md-3 col-sm-6 -->
-					<div class="col-lg-3 col-md-6">
-						<div class="widget-ft widget-subscribe">
-							<h3 class="title">Pretplati se</h3>
-							<form id="subscribe-form" action="#" method="post" accept-charset="utf-8" data-mailchimp="true">
-                                <div id="subscribe-content">
-									<div class="input-email">
-										<input type="email" name="email-form" id="subscribe-email" placeholder="Vasa e-mail adresa..." />
-									</div>
-									<button type="button" id="subscribe-button" class="button-subscribe">Potvrdi</button>
+                    <div class="d-flex justify-content-between">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget-ft widget-about">
+                                <div id="logo-ft">
+                                    <a href="/" title="">
+                                        <h1 style="color:#18ba60;">Mediteran</h1>
+                                    </a>
                                 </div>
-                                <div id="subscribe-msg"></div>
-							</form>
-						</div><!-- /.widget-subscribe -->
-					</div><!-- /.col-md-3 col-sm-6 -->
+                                <p>The industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                <ul class="social">
+                                    <li>
+                                        <a href="#" title="">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- /.widget-text -->
+                        </div><!-- /.col-md-3 col-sm-6 -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget-ft widget-services">
+                                <h3 class="title">Linkovi</h3>
+                                <ul class="one-half first">
+                                    <li><a href="/" title="">Pocetna</a></li>
+                                    <li><a href="about" title="">O nama</a></li>
+                                    <li><a href="services" title="">Usluge</a></li>
+                                </ul><!-- /.one-half -->
+                                <ul class="one-half">
+                                    <li><a href="contact-v1" title="">Kontakt</a></li>
+                                    <li><a href="news" title="">Vijesti</a></li>
+                                    <li><a href="about" title="">Nas tim</a></li>
+                                </ul><!-- /.one-half -->
+                                <div class="clearfix"></div>
+                            </div><!-- /.widget-services -->
+						</div><!-- /.col-md-3 col-sm-6 -->
+						<div class="col-lg-3 col-md-6">
+							<div class="widget-ft widget-lastest">
+								<h3 class="title">Latest Twitter</h3>
+								<ul>
+									<li>
+										 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+									</li>
+									<li>
+										 Lorem Ipsum is simply dummy text of the printing and typesetting.Lorem Ipsum is simply dummy.
+									</li>
+								</ul>
+							</div><!-- /.widget-services -->
+						</div><!-- /.col-md-3 col-sm-6 -->
+                    </div>
 				</div><!-- /.row .widget-box -->
 			</div><!-- /.container -->
 		</footer><!-- /#footer -->
