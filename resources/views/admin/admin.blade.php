@@ -2,13 +2,6 @@
 
 @section ('content')
 
-
-@if (session('status'))
-    <div class="alert alert-success" role="alert">
-        {{ session('status') }}
-    </div>
-@endif
-
 <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
     <div class="container-fluid">
         <div class="navbar-wrapper">
