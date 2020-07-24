@@ -36,12 +36,12 @@
     <link href="icon/favicon.png" rel="shortcut icon">
 
 </head>
-	<body>
-		<div class="boxed blog">
+<body>
+	<div class="boxed blog" id="app">
 		<!-- Preloader -->
-	    <div id="loading-overlay">
-        <div class="loader"></div>
-    </div>
+		<div id="loading-overlay">
+			<div class="loader"></div>
+		</div>
 
 		<header id="header" class="header bg-color">
 			<div class="container">
@@ -53,13 +53,13 @@
 							</a>
 						</div><!-- /#logo -->
 						<div class="flat-show-search">
-                            <div class="top-search">
-                            </div> <!-- /.top-search -->
-                        </div>	<!-- /.flat-show-search -->
+							<div class="top-search">
+							</div> <!-- /.top-search -->
+						</div>	<!-- /.flat-show-search -->
 						<div class="nav-wrap">
 							<div class="btn-menu">
-                                <span></span>
-                            </div><!-- //mobile menu button -->
+								<span></span>
+							</div><!-- //mobile menu button -->
 							<nav id="mainnav" class="mainnav">
 								<ul class="menu">
 									<li
@@ -67,15 +67,15 @@
 											class="active"
 										@endif
 									>
-                                        <a href="/" title="">Pocetna</a>
-                                    </li>
+										<a href="/" title="">Početna</a>
+									</li>
 									<li
 										@if (request()->is('about'))
 											class="active"
 										@endif
 									>
-                                        <a href="about" title="">O nama</a>
-                                    </li>
+										<a href="about" title="">O nama</a>
+									</li>
 									<li
 										@if (request()->is('services'))
 											class="active"
@@ -95,8 +95,8 @@
 											class="active"
 										@endif
 									>
-                                        <a href="contact-v1" title="">Kontakt</a>
-                                    </li>
+										<a href="contact-v1" title="">Kontakt</a>
+									</li>
 								</ul><!-- /.menu -->
 							</nav><!-- /#mainnav -->
 						</div><!-- /.nav-wrap -->
@@ -104,64 +104,64 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</header><!-- /header -->
-        @yield ('content')
-        <footer id="footer">
+		@yield ('content')
+		<footer id="footer">
 			<div class="container">
 				<div class="row">
-                    <div class="d-flex justify-content-between">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="widget-ft widget-about">
-                                <div id="logo-ft">
-                                    <a href="/" title="">
-                                        <h1 style="color:#18ba60;">Mediteran</h1>
-                                    </a>
-                                </div>
-                                <p>The industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
-                                <ul class="social">
-                                    <li>
-                                        <a href="#" title="">
-                                            <i class="fa fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="">
-                                            <i class="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div><!-- /.widget-text -->
-                        </div><!-- /.col-md-3 col-sm-6 -->
-                        <div class="col-lg-3 col-md-6">
-                            <div class="widget-ft widget-services">
-                                <h3 class="title">Linkovi</h3>
-                                <ul class="one-half first">
-                                    <li><a href="/" title="">Pocetna</a></li>
-                                    <li><a href="about" title="">O nama</a></li>
-                                    <li><a href="services" title="">Usluge</a></li>
-                                </ul><!-- /.one-half -->
-                                <ul class="one-half">
-                                    <li><a href="contact-v1" title="">Kontakt</a></li>
-                                    <li><a href="news" title="">Vijesti</a></li>
-                                    <li><a href="about" title="">Nas tim</a></li>
-                                </ul><!-- /.one-half -->
-                                <div class="clearfix"></div>
-                            </div><!-- /.widget-services -->
+					<div class="d-flex justify-content-between">
+						<div class="col-lg-3 col-md-6">
+							<div class="widget-ft widget-about">
+								<div id="logo-ft">
+									<a href="/" title="">
+										<h1 style="color:#18ba60;">Mediteran</h1>
+									</a>
+								</div>
+								<p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.
+								</p>
+								<ul class="social">
+									<li>
+										<a href="#" title="">
+											<i class="fa fa-facebook-f"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" title="">
+											<i class="fa fa-google-plus"></i>
+										</a>
+									</li>
+								</ul>
+							</div><!-- /.widget-text -->
+						</div><!-- /.col-md-3 col-sm-6 -->
+						<div class="col-lg-3 col-md-6">
+							<div class="widget-ft widget-services">
+								<h3 class="title">Brzi linkovi</h3>
+								<ul class="one-half first">
+									<li><a href="/" title="">Početna</a></li>
+									<li><a href="about" title="">O nama</a></li>
+									<li><a href="services" title="">Usluge</a></li>
+								</ul><!-- /.one-half -->
+								<ul class="one-half">
+									<li><a href="contact-v1" title="">Kontakt</a></li>
+									<li><a href="news" title="">Vijesti</a></li>
+									<li><a href="about" title="">Naš tim</a></li>
+								</ul><!-- /.one-half -->
+								<div class="clearfix"></div>
+							</div><!-- /.widget-services -->
 						</div><!-- /.col-md-3 col-sm-6 -->
 						<div class="col-lg-3 col-md-6">
 							<div class="widget-ft widget-lastest">
-								<h3 class="title">Latest Twitter</h3>
+								<h3 class="title">Kontakt</h3>
 								<ul>
 									<li>
-										 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+										Naša knjigovodstevan agencija se nalazi na Agrotržnom centru, Lamela II Bijeljina.
 									</li>
 									<li>
-										 Lorem Ipsum is simply dummy text of the printing and typesetting.Lorem Ipsum is simply dummy.
+										Broj telefona za kontakt: 055/425-933 ili direktnim dolaskom u nasu kancelariju. Pozive za saradnju primamo radnim danima od 8 do 16h.
 									</li>
 								</ul>
 							</div><!-- /.widget-services -->
 						</div><!-- /.col-md-3 col-sm-6 -->
-                    </div>
+					</div>
 				</div><!-- /.row .widget-box -->
 			</div><!-- /.container -->
 		</footer><!-- /#footer -->
@@ -171,7 +171,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="copyright">
-							<p>© Copyright <a href="#" title="">Mediteran</a>. Sva prava zadrzana.</p>
+							<p>© Copyright <a href="/" title="">Mediteran</a>. Sva prava zadržana.</p>
 						</div>
 					</div>
 				</div>
@@ -183,22 +183,21 @@
 				<i class="fa fa-chevron-up"></i>
 			</a>
 		</div>
-
+		<component-flash message="{{ session('flash') }}"></component-flash>
 	</div> <!-- /.boxed -->
+	<script src="{{ asset('js/app.js') }}"></script>
 
 	<!-- Javascript -->
-    <script type="text/javascript" src="javascript/jquery.min.js"></script>
-    <script type="text/javascript" src="javascript/tether.min.js"></script>
-    <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
-    <script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="javascript/owl.carousel.js"></script>
-    <script type="text/javascript" src="javascript/jquery.easing.js"></script>
-    <script type="text/javascript" src="javascript/parallax.js"></script>
+	<script type="text/javascript" src="javascript/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/tether.min.js"></script>
+	<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="javascript/owl.carousel.js"></script>
+	<script type="text/javascript" src="javascript/jquery.easing.js"></script>
+	<script type="text/javascript" src="javascript/parallax.js"></script>
 
-    <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
-    <script type="text/javascript" src="javascript/waypoints.min.js"></script>
-    <script type="text/javascript" src="javascript/main.js"></script>
-
-
-	</body>
+	<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+	<script type="text/javascript" src="javascript/waypoints.min.js"></script>
+	<script type="text/javascript" src="javascript/main.js"></script>
+</body>
 </html>

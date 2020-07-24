@@ -8,11 +8,6 @@ use App\Http\Requests\ServiceRequest;
 
 class ServiceController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
     public function index()
     {
         return view('admin.service.index', [
@@ -24,25 +19,29 @@ class ServiceController extends Controller
     {
         Service::create($request->validated());
 
-        return back();
+        return back()
+            ->with('flash', "Uspjesno ste dodali uslugu.");
     }
 
     public function edit(Service $service)
     {
         return view('admin.service.edit', [
-            'service' => $service,
+            'services' => $service,
         ]);
     }
 
-    public function update()
+    public function update(ServiceRequest $request, Service $service)
     {
+        $service->update($request->validated());
 
+        return redirect()->route('service.index');
     }
 
     public function destroy(Service $service)
     {
         $service->delete();
 
-        return back();
+        return back()
+            ->with('flash', 'Izbrisano');
     }
 }

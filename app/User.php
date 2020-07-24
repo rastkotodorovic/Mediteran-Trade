@@ -42,5 +42,4 @@ class User extends Authenticatable
     {
         $this->attributes['avatar'] = Storage::put('images', $value);
     }
-
 }

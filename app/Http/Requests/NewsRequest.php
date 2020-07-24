@@ -23,6 +23,7 @@ class NewsRequest extends FormRequest
      */
     public function rules()
     {
+        //TODO Poboljsati validaciju
         return [
             'title' => 'required',
             'body' => 'required',

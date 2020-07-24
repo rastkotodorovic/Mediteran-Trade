@@ -5,19 +5,15 @@ namespace App\Http\Controllers;
 use App\News;
 use Illuminate\Http\Request;
 use App\Http\Requests\NewsRequest;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Storage;
 
 class NewsController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
     public function index()
     {
         return view('admin.news.index', [
-            'newss' => News::latest()->get(),
+            'news' => News::latest()->get(),
         ]);
     }
 
@@ -25,14 +21,16 @@ class NewsController extends Controller
     {
         News::create($request->validated());
 
-        return back();
+        return back()
+            ->with('flash', "Uspjesno ste dodali vijest.");
     }
 
     public function destroy(News $news)
     {
         $news->delete();
 
-        return back();
+        return back()
+            ->with('flash', 'Izbrisano');
     }
 
     public function edit(News $news)
@@ -42,18 +40,11 @@ class NewsController extends Controller
         ]);
     }
 
-    public function update(News $news)
+    public function update(NewsRequest $request, News $news)
     {
-        $validated = request()->validate([
-            'title' => 'required',
-            'body' => 'required',
-            'link' => 'required',
-            'image' => 'required|file',
-        ]);
+        $news->update($request->validated());
 
-        $validated['image'] = request('image')->store('images');
-
-        $news->update($validated);
+        Session::flash('flash', 'Uredjeno');
 
         return redirect()->route('news.index');
     }

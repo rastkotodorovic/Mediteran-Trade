@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Mediteran
+        {{ config('app.name') }}
     </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
 
@@ -25,111 +25,107 @@
 </head>
 
 <body class="">
-    <div class="wrapper ">
-        <div class="sidebar" data-color="blue">
-            <!--
-                Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
-            -->
-            <div class="logo">
-                <a
-                    href="http://www.creative-tim.com"
-                    class="simple-text logo-normal"
-                    style="margin-left:70px;"
-                >
-                    Mediteran
-                </a>
-            </div>
-            <div class="sidebar-wrapper" id="sidebar-wrapper">
-                <ul class="nav">
-                    <li
-                    @if (request()->is('admin'))
-                    class="active"
-                    @endif
+    <div id="app">
+        <div class="wrapper ">
+            <div class="sidebar" data-color="blue">
+                <div class="logo">
+                    <a
+                        href="http://www.creative-tim.com"
+                        class="simple-text logo-normal"
+                        style="margin-left:70px;"
                     >
-                    <a href="{{ route('task.index') }}">
-                        <i class="now-ui-icons design_app"></i>
-                        <p>Pocetna</p>
+                        Mediteran
                     </a>
-                </li>
-                <li
-                @if (request()->is('admin/news'))
-                class="active"
+                </div>
+                <div class="sidebar-wrapper" id="sidebar-wrapper">
+                    <ul class="nav">
+                        <li
+                            @if(request()->is('admin'))
+                                class="active"
+                            @endif
+                        >
+                            <a href="{{ route('task.index') }}">
+                                <i class="now-ui-icons design_app"></i>
+                                <p>Pocetna</p>
+                            </a>
+                        </li>
+                        <li
+                            @if (request()->is('admin/news'))
+                                class="active"
+                            @endif
+                        >
+                            <a href="{{ route('news.index') }}">
+                                <i class="now-ui-icons users_single-02"></i>
+                                <p>Vijesti</p>
+                            </a>
+                        </li>
+                        <li
+                            @if (request()->is('admin/services'))
+                                class="active"
+                            @endif
+                        >
+                            <a href="/admin/services">
+                                <i class="now-ui-icons users_single-02"></i>
+                                <p>Usluge</p>
+                            </a>
+                        </li>
+                        <li
+                            @if (request()->is('admin/profile'))
+                                class="active"
+                            @endif
+                        >
+                            <a href="/admin/profile">
+                                <i class="now-ui-icons users_single-02"></i>
+                                <p>Profil</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-panel" id="main-panel">
+                @if (session('status'))
+                    <div class="alert alert-success" role="alert">
+                        {{ session('status') }}
+                    </div>
                 @endif
-                >
-                <a href="{{ route('news.index') }}">
-                    <i class="now-ui-icons users_single-02"></i>
-                    <p>Vijesti</p>
-                </a>
-            </li>
-            <li
-            @if (request()->is('admin/services'))
-            class="active"
-            @endif
-            >
-                <a href="/admin/services">
-                    <i class="now-ui-icons users_single-02"></i>
-                    <p>Usluge</p>
-                </a>
-            </li>
-            <li
-            @if (request()->is('admin/profile'))
-            class="active"
-            @endif
-            >
-            <a href="/admin/profile">
-                <i class="now-ui-icons users_single-02"></i>
-                <p>Profil</p>
-            </a>
-        </li>
-    </ul>
-</div>
-</div>
-<div class="main-panel" id="main-panel">
-    @if (session('status'))
-        <div class="alert alert-success" role="alert">
-            {{ session('status') }}
-        </div>
-    @endif
-    @yield ('content')
-    <footer class="footer">
-        <div class=" container-fluid ">
-            <nav>
-                <ul>
-                    <li>
-                        Mediteran-Trade
-                    </li>
-                </ul>
-            </nav>
-            <div class="copyright" id="copyright">
-                &copy; <script>
-                    document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-                </script>, Designed by <a href="#" target="_blank">Mediteran</a>.
+                @yield ('content')
+                <footer class="footer">
+                    <div class=" container-fluid ">
+                        <nav>
+                            <ul>
+                                <li>
+                                    {{ config('app.name') }}
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="copyright" id="copyright">
+                            &copy; {{ now()->year }}, Designed by <a href="#" target="_blank">Rastko</a>.
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
-    </footer>
-</div>
-</div>
-<!--   Core JS Files   -->
-<script src="../assets/js/core/jquery.min.js"></script>
-<script src="../assets/js/core/popper.min.js"></script>
-<script src="../assets/js/core/bootstrap.min.js"></script>
-<script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-<!--  Google Maps Plugin    -->
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-<!-- Chart JS -->
-<script src="../assets/js/plugins/chartjs.min.js"></script>
-<!--  Notifications Plugin    -->
-<script src="../assets/js/plugins/bootstrap-notify.js"></script>
-<!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-<script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script><!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
-<script src="../assets/demo/demo.js"></script>
-<script>
-    $(document).ready(function() {
-        // Javascript method's body can be found in assets/js/demos.js
-        demo.initDashboardPageCharts();
-
-    });
-</script>
+        <component-flash message="{{ session('flash') }}"></component-flash>
+    </div>
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+    </script>
+    <script src="../assets/js/core/jquery.min.js"></script>
+    <script src="../assets/js/core/popper.min.js"></script>
+    <script src="../assets/js/core/bootstrap.min.js"></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <script src="../assets/js/plugins/chartjs.min.js"></script>
+    <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+    <script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script>
+    <script src="../assets/demo/demo.js"></script>
+    <script>
+        $(document).ready(function() {
+            demo.initDashboardPageCharts();
+        });
+    </script>
 </body>
-
 </html>

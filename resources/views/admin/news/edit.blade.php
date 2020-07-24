@@ -1,13 +1,14 @@
 @extends('admin.layout')
 
 @section('content')
+
     <div class="card-body">
         <div class="table-responsive">
             <h2>Uredi vijest</h2>
             <form method="POST" action="{{ route('news.update', $news) }}" enctype="multipart/form-data">
                 @method ('PATCH')
                 @csrf
-                <inpu@extends ('admin.layout')
+                <input
                     type="text"
                     placeholder="Title"
                     class="form-control"
@@ -45,4 +46,5 @@
             </form>
         </div>
     </div>
+
 @endsection

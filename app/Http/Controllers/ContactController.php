@@ -23,6 +23,7 @@ class ContactController extends Controller
         Mail::to('admin@example.com')
             ->send(new ContactMe($contact));
 
-        return redirect('contact-v1');
+        return redirect('contact-v1')
+            ->with('flash', 'Uspjesno ste poslali mejl.');
     }
 }

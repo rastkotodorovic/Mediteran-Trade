@@ -9,19 +9,6 @@ use App\Http\Requests\TaskRequest;
 
 class TaskController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-
-
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
-
     public function index()
     {
         return view('admin.admin', [
@@ -47,6 +34,7 @@ class TaskController extends Controller
     {
         $task->delete();
 
-        return back();
+        return back()
+            ->with('flash', 'Izbrisano');
     }
 }
