@@ -1,4 +1,4 @@
-/* 
+/*
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
@@ -37,7 +37,7 @@
   }
 }
 
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
@@ -48,7 +48,7 @@
   transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -115,7 +115,7 @@
 }
 .owl-carousel .owl-item img {
   display: inline-block;
-   width: 100%; 
+   width: 100%;
   -webkit-transform-style: preserve-3d;
 }
 .owl-carousel.owl-text-select-on .owl-item {
@@ -143,7 +143,7 @@
   display: block;
 }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -158,7 +158,7 @@
   transform-style: preserve-3d;
 }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {
@@ -231,7 +231,7 @@
     height: 10px;
     background-color: #d7d7d7;
     border-radius: 50%;
-    margin: 5px;   
+    margin: 5px;
     display: block;
     -webkit-backface-visibility: visible;
     -webkit-transition: opacity 200ms ease;
@@ -240,20 +240,20 @@
     -o-transition: opacity 200ms ease;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #18ba60;
-    
+    background-color: #1c4675;
+
 }
 
 /* Styling Next and Prev buttons */
 .owl-theme .owl-controls .owl-nav div {
-    background: #18ba60;
+    background: #1c4675;
     text-align: center;
     display: inline-block;
     outline: 0;
     width: 25px;
     text-align: center;
     line-height: 25px;
-    height: 25px;    
+    height: 25px;
     color: #fff;
     top: -64px;
     right: 0;
@@ -263,7 +263,7 @@
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
          -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;     
+            transition: all 0.3s ease-in-out;
 }
 
 .owl-theme .owl-controls .owl-nav div:hover {
@@ -272,28 +272,28 @@
 
 .owl-theme .owl-controls .owl-nav div.owl-prev {
     position: absolute;
-    right: 31px;   
+    right: 31px;
 }
 
 .owl-theme .owl-controls .owl-nav div.owl-prev:before,
 .owl-theme .owl-controls .owl-nav div.owl-next:before {
-    font-family: FontAwesome;    
+    font-family: FontAwesome;
     font-size: 14px;
-    color: #fff; 
+    color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
          -o-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
-}  
+}
 
 .owl-theme .owl-controls .owl-nav div.owl-prev:before {
-   content: "\f104"; 
+   content: "\f104";
 }
 
 .owl-theme .owl-controls .owl-nav div.owl-prev:hover:before,
-.owl-theme .owl-controls .owl-nav div.owl-next:hover:before {    
-    color: #18ba60;
+.owl-theme .owl-controls .owl-nav div.owl-next:hover:before {
+    color: #1c4675;
 }
 
 .owl-theme .owl-controls .owl-nav div.owl-next {
@@ -301,6 +301,6 @@
   right: 0;
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-next:before {    
-    content: "\f105";    
-}  
+.owl-theme .owl-controls .owl-nav div.owl-next:before {
+    content: "\f105";
+}

@@ -55,7 +55,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div id="logo" class="logo">
                         <a href="/" title="">
-                            <h1 style="color:#18ba60;">Mediteran</h1>
+                            <h1>Mediteran</h1>
                         </a>
                     </div><!-- /#logo -->
                 </div>
@@ -466,6 +466,30 @@
             </ul>
         </div>
     </div><!-- END REVOLUTION SLIDER -->
+    <section class="flat-about style2">
+        <div class="container">
+            <div class="row">
+                <div class="about-us style3">
+                    <div class="flat-title style1">
+                        <h2>Nasa agencija Mediteran</h2>
+                    </div>
+                    <div class="content">
+                        <p>Knjigovodstena agencija Mediteran se bavi pružanjem knjigovodstvenih i računovodstvenih usluga, vođenjem poslvnih knjiga za sve vrste djelatnosti preduzeća i preduzetnika. Vršimo internet i elektronsko poslovanje sa poreskom upravom i UIO, čime omogućavamo brže i efikasnije poslovanje.</p>
+                    </div>
+                    <div class="bottom">
+                        <div class="btn-more">
+                           <a href="about" title="">Procitaj vise</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-about">
+                    <div class="images-about">
+                        <img src="images/about/04.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="flat-iconbox style3">
         <div class="container">
             <div class="row">
@@ -545,7 +569,7 @@
                         <div class="widget-ft widget-about">
                             <div id="logo-ft">
                                 <a href="/" title="">
-                                    <h1 style="color:#18ba60;">Mediteran</h1>
+                                    <h1 style="color:rgb(28, 70, 117);">Mediteran</h1>
                                 </a>
                             </div>
                             <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.

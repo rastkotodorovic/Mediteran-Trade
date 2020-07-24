@@ -72,7 +72,7 @@ html[xmlns] .flexslider .slides {
 /* ====================================================================================================================
  * DEFAULT THEME
  * ====================================================================================================================*/
-.flexslider { 
+.flexslider {
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -268,18 +268,18 @@ html[xmlns] .flexslider .slides {
   height: 40px;
   text-align: center;
   line-height: 40px;
-  border-color: #18ba60;  
-  background-color: #18ba60;
+  border-color: #1c4675;
+  background-color: #1c4675;
   border-style: solid;
   border-width: 2px;
   position: absolute;
   top: 50%;
-  margin-top: -20px; 
+  margin-top: -20px;
 }
 
 .flex-direction-nav a:hover {
   background-color: #333;
-  border-color: #333;  
+  border-color: #333;
 }
 
 .flex-direction-nav a:hover i {
@@ -300,6 +300,6 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-direction-nav .flex-next {
-  right: 0;  
+  right: 0;
 }
 

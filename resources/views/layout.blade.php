@@ -49,7 +49,7 @@
 					<div class="header-wrap">
 						<div id="logo" class="logo">
 							<a href="/" title="">
-								<h1 style="color:#18ba60;">Mediteran</h1>
+								<h1>Mediteran</h1>
 							</a>
 						</div><!-- /#logo -->
 						<div class="flat-show-search">
@@ -113,7 +113,7 @@
 							<div class="widget-ft widget-about">
 								<div id="logo-ft">
 									<a href="/" title="">
-										<h1 style="color:#18ba60;">Mediteran</h1>
+										<h1 style="color:#1c4675;">Mediteran</h1>
 									</a>
 								</div>
 								<p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.
