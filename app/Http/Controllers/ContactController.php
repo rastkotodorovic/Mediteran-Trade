@@ -20,7 +20,7 @@ class ContactController extends Controller
     {
         $contact = Contact::create($request->validated());
 
-        Mail::to('admin@example.com')
+        Mail::to('cvijetapanic2@gmail.com')
             ->send(new ContactMe($contact));
 
         return redirect('contact-v1')
