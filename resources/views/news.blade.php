@@ -35,7 +35,11 @@
                         <div class="col-md-4 col-sm-6">
                             <article class="main-post">
                                 <div class="featured-post">
-                                    <a href="https://{{ $article->link }}/" title="">
+                                    <a
+                                        href="https://{{ $article->link }}/"
+                                        title=""
+                                        target="_blank"
+                                    >
                                         <img src="{{ asset('storage/'. $article->image) }}" alt="Vijesti" />
                                     </a>
                                 </div><!-- /.featured-post -->

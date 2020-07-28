@@ -119,22 +119,7 @@
 											<ul>
 												<li>
 													<a href="#" title="">
-														<i class="fa fa-twitter"></i>
-													</a>
-												</li>
-												<li>
-													<a href="#" title="">
 														<i class="fa fa-facebook-f"></i>
-													</a>
-												</li>
-												<li>
-													<a href="#" title="">
-														<i class="fa fa-google-plus"></i>
-													</a>
-												</li>
-												<li>
-													<a href="#" title="">
-														<i class="fa fa-pinterest-p"></i>
 													</a>
 												</li>
 											</ul>
@@ -164,22 +149,7 @@
 											<ul>
 												<li>
 													<a href="#" title="">
-														<i class="fa fa-twitter"></i>
-													</a>
-												</li>
-												<li>
-													<a href="#" title="">
 														<i class="fa fa-facebook-f"></i>
-													</a>
-												</li>
-												<li>
-													<a href="#" title="">
-														<i class="fa fa-google-plus"></i>
-													</a>
-												</li>
-												<li>
-													<a href="#" title="">
-														<i class="fa fa-pinterest-p"></i>
 													</a>
 												</li>
 											</ul>

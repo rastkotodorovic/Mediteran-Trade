@@ -535,7 +535,11 @@
                         @foreach ($news as $article)
                             <article class="main-post style2">
                                 <div class="featured-post">
-                                    <a href="https://{{ $article->link }}/" title="">
+                                    <a
+                                        href="https://{{ $article->link }}/"
+                                        title=""
+                                        target="_blank"
+                                    >
                                         <img src="{{ asset('storage/'. $article->image) }}" alt="{{ $article->title }}" />
                                     </a>
                                 </div><!-- /.featured-post -->
@@ -578,11 +582,6 @@
                                 <li>
                                     <a href="#" title="">
                                         <i class="fa fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="">
-                                        <i class="fa fa-google-plus"></i>
                                     </a>
                                 </li>
                             </ul>

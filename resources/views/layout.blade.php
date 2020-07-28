@@ -124,11 +124,6 @@
 											<i class="fa fa-facebook-f"></i>
 										</a>
 									</li>
-									<li>
-										<a href="#" title="">
-											<i class="fa fa-google-plus"></i>
-										</a>
-									</li>
 								</ul>
 							</div><!-- /.widget-text -->
 						</div><!-- /.col-md-3 col-sm-6 -->
