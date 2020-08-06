@@ -568,55 +568,64 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="d-flex justify-content-between">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget-ft widget-about">
-                            <div id="logo-ft">
-                                <a href="/" title="">
-                                    <h1 style="color:rgb(28, 70, 117);">Mediteran</h1>
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget-ft widget-about">
+                        <div id="logo-ft">
+                            <a href="#" title="">
+                                <h1 style="color:#1c4675;">Mediteran</h1>
+                            </a>
+                        </div>
+                        <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.
+                        </p>
+                        <ul class="social">
+                            <li>
+                                <a href="#" title="">
+                                    <i class="fa fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.widget-text -->
+                </div><!-- /.col-md-3 col-sm-6 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget-ft widget-services">
+                        <h3 class="title">Brzi linkovi</h3>
+                        <ul class="one-half first">
+                            <li><a href="/" title="">Pocetna</a></li>
+                            <li><a href="about" title="">O nama</a></li>
+                            <li><a href="services" title="">Usluge</a></li>
+                        </ul><!-- /.one-half -->
+                        <ul class="one-half">
+                            <li><a href="contact-v1" title="">Kontakt</a></li>
+                            <li><a href="news" title="">Vijesti</a></li>
+                            <li><a href="about" title="">Nas tim</a></li>
+                        </ul><!-- /.one-half -->
+                        <div class="clearfix"></div>
+                    </div><!-- /.widget-services -->
+                </div><!-- /.col-md-3 col-sm-6 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget-ft widget-lastest">
+                        <h3 class="title">Kontakt</h3>
+                        <ul>
+                            <li>
+                                Naša knjigovodstevan agencija se nalazi na Agrotržnom centru, Lamela II Bijeljina.
+                                Broj telefona za kontakt: 055/425-933 ili direktnim dolaskom u nasu kancelariju. Pozive za saradnju primamo radnim danima od 8 do 16h.
+                            </li>
+                        </ul>
+                    </div><!-- /.widget-services -->
+                </div><!-- /.col-md-3 col-sm-6 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget-ft widget-subscribe">
+                        <h3 class="title">Kontakt putem mail-a</h3>
+                        <form id="subscribe-form" action="#" method="post" accept-charset="utf-8" data-mailchimp="true">
+                            <div id="subscribe-content">
+                                <a href="contact-v1">
+                                    <button type="button" id="subscribe-button" class="button-subscribe">Kontaktiraj nas</button>
                                 </a>
                             </div>
-                            <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.
-                            </p>
-                            <ul class="social">
-                                <li>
-                                    <a href="#" title="">
-                                        <i class="fa fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div><!-- /.widget-text -->
-                    </div><!-- /.col-md-3 col-sm-6 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget-ft widget-services">
-                            <h3 class="title">Brzi linkovi</h3>
-                            <ul class="one-half first">
-                                <li><a href="/" title="">Početna</a></li>
-                                <li><a href="about" title="">O nama</a></li>
-                                <li><a href="services" title="">Usluge</a></li>
-                            </ul><!-- /.one-half -->
-                            <ul class="one-half">
-                                <li><a href="contact-v1" title="">Kontakt</a></li>
-                                <li><a href="news" title="">Vijesti</a></li>
-                                <li><a href="about" title="">Naš tim</a></li>
-                            </ul><!-- /.one-half -->
-                            <div class="clearfix"></div>
-                        </div><!-- /.widget-services -->
-                    </div><!-- /.col-md-3 col-sm-6 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget-ft widget-lastest">
-                            <h3 class="title">Kontakt</h3>
-                            <ul>
-                                <li>
-                                    Naša knjigovodstevan agencija se nalazi na Agrotržnom centru, Lamela II Bijeljina.
-                                </li>
-                                <li>
-                                    Broj telefona za kontakt: 055/425-933 ili direktnim dolaskom u nasu kancelariju. Pozive za saradnju primamo radnim danima od 8 do 16h.
-                                </li>
-                            </ul>
-                        </div><!-- /.widget-services -->
-                    </div><!-- /.col-md-3 col-sm-6 -->
-                </div>
+                            <div id="subscribe-msg"></div>
+                        </form>
+                    </div><!-- /.widget-subscribe -->
+                </div><!-- /.col-md-3 col-sm-6 -->
             </div><!-- /.row .widget-box -->
         </div><!-- /.container -->
     </footer><!-- /#footer -->
