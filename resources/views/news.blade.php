@@ -36,23 +36,22 @@
                             <article class="main-post">
                                 <div class="featured-post">
                                     <a
-                                        href="https://{{ $article->link }}/"
+                                        href="{{ $article->link }}/"
                                         title=""
                                         target="_blank"
                                     >
-                                        <img src="{{ asset('storage/'. $article->image) }}" alt="Vijesti" />
-                                    </a>
                                 </div><!-- /.featured-post -->
                                 <div class="entry-content">
                                     <div class="date">
                                         {{ $article->created_at }}
                                     </div>
                                     <h3>
-                                        <a href="#" title="">{{ $article->title }}</a>
+                                        {{ $article->title }}
                                     </h3>
                                     <p>
                                         {{ $article->body }}
                                     </p>
+                                    </a>
                                 </div><!-- /.entry-content -->
                             </article>
                         </div>
