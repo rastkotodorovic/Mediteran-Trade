@@ -15,27 +15,34 @@
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- Boostrap style -->
+    <!-- Boostrap style -->
+    <link rel="preload" href="stylesheet/bootstrap.min.css" as="style">
 	<link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
 
     <!-- REVOLUTION LAYERS STYLES -->
     <link rel="preload" href="revolution/css/settings.css" as="style">
+    <link rel="preload" href="revolution/css/layers.css" as="style">
     <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
 
     <!-- Fancybox Style -->
+    <link rel="preload" href="stylesheet/fancybox.css" as="style">
     <link rel="stylesheet" type="text/css" href="stylesheet/fancybox.css">
 
-	<!-- Theme style -->
+    <!-- Theme style -->
+    <link rel="preload" href="stylesheet/style.css" as="style">
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
 
     <!-- Colors -->
+    <link rel="preload" href="stylesheet/colors/color1.css" as="style">
     <link rel="stylesheet" type="text/css" href="stylesheet/colors/color1.css" id="colors">
 
-	<!-- Reponsive -->
+    <!-- Reponsive -->
+    <link rel="preload" href="stylesheet/responsive" as="style">
 	<link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
 
     <!-- Animation Style -->
+    <link rel="preload" href="stylesheet/animate.css" as="style">
     <link rel="stylesheet" type="text/css" href="stylesheet/animate.css">
 
     <!-- Favicon and touch icons  -->

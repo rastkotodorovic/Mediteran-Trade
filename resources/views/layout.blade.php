@@ -19,15 +19,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- Boostrap style -->
+	<link rel="preload" href="stylesheet/bootstrap.min.css" as="style">
 	<link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
 
 	<!-- Theme style -->
+	<link rel="preload" href="stylesheet/style.css" as="style">
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
 
 	<!-- Colors -->
+	<link rel="preload" href="stylesheet/colors/color1.css" as="style">
     <link rel="stylesheet" type="text/css" href="stylesheet/colors/color1.css" id="colors">
 
 	<!-- Reponsive -->
+	<link rel="preload" href="stylesheet/responsive.css" as="style">
 	<link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
 
 	<!-- Favicon and touch icons  -->
