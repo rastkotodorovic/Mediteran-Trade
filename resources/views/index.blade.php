@@ -19,6 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
 
     <!-- REVOLUTION LAYERS STYLES -->
+    <link rel="preload" href="revolution/css/settings.css" as="style">
     <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
 
