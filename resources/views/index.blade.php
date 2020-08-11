@@ -51,7 +51,6 @@
     <link rel="stylesheet" type="text/css" href="stylesheet/colors/color1.css" id="colors">
 
     <!-- Reponsive -->
-    <link rel="preload" href="stylesheet/responsive" as="style">
 	<link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
 
     <!-- Animation Style -->

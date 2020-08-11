@@ -18,12 +18,21 @@
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="preload" as="font" href="{{ asset('stylesheet/font-awesome.css') }}" type="font/woff2" crossorigin>
+	<link rel="preload" as="style" href="{{ asset('stylesheet/font-awesome.css') }}">
 
-    <link rel="preload" as="font" href="{{ asset('stylesheet/ionicons.css') }}" type="font/woff2" crossorigin>
+    <link rel="preload" as="style" href="{{ asset('stylesheet/ionicons.css') }}">
+
+    <link rel="preload" as="style" href="{{ asset('stylesheet/themify-icons.css') }}">
+
+    <link rel="preload" as="style" href="{{ asset('stylesheet/flexslider.css') }}">
+
+    <link rel="preload" as="style" href="{{ asset('stylesheet/owl.carousel.css') }}">
+
+    <link rel="preload" as="style" href="{{ asset('stylesheet/et-line.css') }}">
+
+    <link rel="preload" as="style" href="{{ asset('stylesheet/shortcodes.css') }}">
 
 	<!-- Boostrap style -->
-	<link rel="preload" href="stylesheet/bootstrap.min.css" as="style">
 	<link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
 
 	<!-- Theme style -->
