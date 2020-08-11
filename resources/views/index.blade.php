@@ -15,6 +15,10 @@
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+    <link rel="preload" as="font" href="/fonts/ionicons.ttf?v=2.0.0" type="font/woff2" crossorigin="anonymous">
+
+    <link rel="preload" as="font" href="../fonts/revicons/revicons.eot?5510888#iefix" type="font/woff2" crossorigin="anonymous">
+
     <!-- Boostrap style -->
     <link rel="preload" href="stylesheet/bootstrap.min.css" as="style">
 	<link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
