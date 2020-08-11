@@ -16,7 +16,11 @@
 	<meta name="author" content="themsflat.com">
 
 	<!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="preload" as="font" href="{{ asset('stylesheet/font-awesome.css') }}" type="font/woff2" crossorigin>
+
+    <link rel="preload" as="font" href="{{ asset('stylesheet/ionicons.css') }}" type="font/woff2" crossorigin>
 
 	<!-- Boostrap style -->
 	<link rel="preload" href="stylesheet/bootstrap.min.css" as="style">
