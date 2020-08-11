@@ -591,7 +591,7 @@
                     <div class="widget-ft widget-about">
                         <div id="logo-ft">
                             <a href="#" title="">
-                                <h1 style="color:#1c4675;">Mediteran</h1>
+                                <h2 style="color:#1c4675;">Mediteran</h2>
                             </a>
                         </div>
                         <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.
