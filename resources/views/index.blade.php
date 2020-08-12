@@ -540,50 +540,6 @@
         </div>
     </section>
 
-    <section class="flat-news">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="flat-title style1 center">
-                        <h2>Vijesti</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel-13">
-                        @foreach ($news as $article)
-                            <article class="main-post style2">
-                                <div class="featured-post">
-                                    <a
-                                        href="{{ $article->link }}/"
-                                        title=""
-                                        target="_blank"
-                                    >
-                                </div><!-- /.featured-post -->
-                                <div class="entry-content">
-                                    <div class="date">
-                                        {{ $article->created_at }}
-                                    </div>
-                                    <h3>
-                                        {{ $article->title }}
-                                    </h3>
-                                    <p>
-                                        {{ $article->body }}
-                                    </p>
-                                    </a>
-                                </div><!-- /.entry-content -->
-                            </article>
-                        @endforeach
-                    </div>
-                    <div class="btn-more">
-                        <a href="/news" title="">Sve vijesti</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <footer id="footer">
         <div class="container">
             <div class="row">
