@@ -636,7 +636,7 @@
 <script async type="text/javascript" src="javascript/owl.carousel.js"></script>
 <script type="text/javascript" src="javascript/jquery.easing.js"></script>
 <script async type="text/javascript" src="javascript/parallax.js"></script>
-<script async type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
 <script async type="text/javascript" src="javascript/waypoints.min.js"></script>
 
 <script async type="text/javascript" src="javascript/kinetic.js"></script>
@@ -651,8 +651,8 @@
 
 
 <!-- Revolution Slider -->
-<script async type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-<script async type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
 <script async type="text/javascript" src="revolution/js/slider_v3.js"></script>
 
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
