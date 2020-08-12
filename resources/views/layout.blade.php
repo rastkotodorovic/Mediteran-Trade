@@ -210,10 +210,10 @@
 
 	<!-- Javascript -->
 	<script type="text/javascript" src="javascript/jquery.min.js"></script>
-	<script async type="text/javascript" src="javascript/tether.min.js"></script>
-	<script async type="text/javascript" src="javascript/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascript/tether.min.js"></script>
+	<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
 	<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
-	<script async type="text/javascript" src="javascript/owl.carousel.js"></script>
+	<script type="text/javascript" src="javascript/owl.carousel.js"></script>
 	<script type="text/javascript" src="javascript/jquery.easing.js"></script>
 	<script async type="text/javascript" src="javascript/parallax.js"></script>
 
