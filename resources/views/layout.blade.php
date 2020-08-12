@@ -209,16 +209,16 @@
 	<script src="{{ asset('js/app.js') }}"></script>
 
 	<!-- Javascript -->
-	<script type="text/javascript" src="javascript/jquery.min.js"></script>
-	<script type="text/javascript" src="javascript/tether.min.js"></script>
-	<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
-	<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
-	<script type="text/javascript" src="javascript/owl.carousel.js"></script>
-	<script type="text/javascript" src="javascript/jquery.easing.js"></script>
-	<script type="text/javascript" src="javascript/parallax.js"></script>
+	<script async type="text/javascript" src="javascript/jquery.min.js"></script>
+	<script async type="text/javascript" src="javascript/tether.min.js"></script>
+	<script async type="text/javascript" src="javascript/bootstrap.min.js"></script>
+	<script async type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+	<script async type="text/javascript" src="javascript/owl.carousel.js"></script>
+	<script async type="text/javascript" src="javascript/jquery.easing.js"></script>
+	<script async type="text/javascript" src="javascript/parallax.js"></script>
 
-	<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
-	<script type="text/javascript" src="javascript/waypoints.min.js"></script>
-	<script type="text/javascript" src="javascript/main.js"></script>
+	<script async type="text/javascript" src="javascript/jquery.cookie.js"></script>
+	<script async type="text/javascript" src="javascript/waypoints.min.js"></script>
+	<script async type="text/javascript" src="javascript/main.js"></script>
 </body>
 </html>
