@@ -142,7 +142,8 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="hero">
-                        <h2>Podignite svoje poslovanje na viši nivo</h2>
+                        <h2 style="font-size: 40px;
+                        font-weight: bold;">Podignite svoje poslovanje na viši nivo</h2>
                         <br>
                         <p>Računovodstvena agencija Mediteran Cvijeta Panić</p>
                         <br>
