@@ -136,7 +136,22 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </header><!-- /header -->
+    <div style=" position: relative;
+    text-align: center;
+    color: white;">
         <img src="./images/slides/slide-02.jpg"  alt="Slajder"  style="height: auto;max-height:750px;width:100%;">
+        <div style="position: absolute;
+                    top: 40%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);">
+            <h2 style="font-size:50px;font-weight: bold;color:#1c4675;;" >
+                Podigni svoje poslovanje na veci nivo
+            </h2>
+            <h4 style="font-size:35px;font-weight: bold;color:black;margin-top:50px;">Racunovodstvena agencija Mediteran Cvijeta Panic</h4>
+            <a href="/about"><button style="margin-right:30px;">Procitaj vise</button></a>
+            <a href="/contact-v1"><button style="margin-top:100px;">Kontakt</button></a>
+        </div>
+    </div>
     <section class="flat-about style2">
         <div class="container">
             <div class="row">
