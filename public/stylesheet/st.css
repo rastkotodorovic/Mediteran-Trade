@@ -3,15 +3,26 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 65vh;
-    padding-top: 10%;
+    padding-top: 8%;
   }
 
 .hero {
-    padding: 30px;
-    background-color: rgb(0 0 0 / 28%);
+    padding: 30px 40px;
+    background-color: rgb(0 0 0 / 50%);
 }
 
 .hero h2,
 .hero p {
     color: #fff;
+}
+
+.hero h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:22px;
 }

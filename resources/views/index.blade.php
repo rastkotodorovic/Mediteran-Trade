@@ -138,10 +138,18 @@
         {{-- <img src="./images/slides/slide-02.jpg"  alt="Slajder"  style="height: auto;max-height:700px;width:100%;"> --}}
 
     <div class="jumbotron jumbotron-fluid" style="background-image: url('./images/slides/slide-02.jpg');">
-        <div class="container hero">
-            <h2 style="font-size:40px;">Podignite svoje poslovanje na viši nivo</h2>
-            <p style="padding-top:10px;padding-bottom:10px;font-size:15px;">Računovodstvena agencija Mediteran Cvijeta Panić</p>
-            <a href="/contact-v1"><button class="tp-caption flat-button-slider bg-white">Kontakt</button></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="hero">
+                        <h2>Podignite svoje poslovanje na viši nivo</h2>
+                        <br>
+                        <p>Računovodstvena agencija Mediteran Cvijeta Panić</p>
+                        <br>
+                        <a href="/contact-v1"><button class="tp-caption flat-button-slider bg-white">Kontakt</button></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
