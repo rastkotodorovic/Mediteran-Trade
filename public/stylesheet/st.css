@@ -1,0 +1,17 @@
+.jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    padding-top: 10%;
+  }
+
+.hero {
+    padding: 30px;
+    background-color: rgb(0 0 0 / 28%);
+}
+
+.hero h2,
+.hero p {
+    color: #fff;
+}

@@ -147,14 +147,14 @@
                         <div class="widget-ft widget-services">
                             <h3 class="title">Brzi linkovi</h3>
                             <ul class="one-half first">
-                                <li><a href="/" title="">Pocetna</a></li>
+                                <li><a href="/" title="">Početna</a></li>
                                 <li><a href="about" title="">O nama</a></li>
                                 <li><a href="services" title="">Usluge</a></li>
                             </ul><!-- /.one-half -->
                             <ul class="one-half">
                                 <li><a href="contact-v1" title="">Kontakt</a></li>
                                 <li><a href="news" title="">Vijesti</a></li>
-                                <li><a href="about" title="">Nas tim</a></li>
+                                <li><a href="about" title="">Naš tim</a></li>
                             </ul><!-- /.one-half -->
                             <div class="clearfix"></div>
                         </div><!-- /.widget-services -->
@@ -164,7 +164,7 @@
                             <h3 class="title">Kontakt</h3>
                             <ul>
                                 <li>
-									Naša knjigovodstevan agencija se nalazi na Agrotržnom centru, Lamela II Bijeljina.
+									Naša knjigovodstevana agencija se nalazi na Agrotržnom centru, Lamela II Bijeljina.
 									Broj telefona za kontakt: 055/425-933 ili direktnim dolaskom u nasu kancelariju. Pozive za saradnju primamo radnim danima od 8 do 16h.
                                 </li>
                             </ul>

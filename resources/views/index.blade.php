@@ -41,6 +41,8 @@
     <!-- Animation Style -->
     <link rel="stylesheet" type="text/css" href="stylesheet/animate.css">
 
+    <link rel="stylesheet" type="text/css" href="stylesheet/st.css">
+
     <!-- Favicon and touch icons  -->
     <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed">
     <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
@@ -50,9 +52,6 @@
 <body>
     <div class="boxed">
     <!-- Preloader -->
-    <div id="loading-overlay">
-        <div class="loader"></div>
-    </div>
     <div class="header-top">
         <div class="container">
             <div class="row">
@@ -136,7 +135,16 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </header><!-- /header -->
-        <img src="./images/slides/slide-02.jpg"  alt="Slajder"  style="height: auto;max-height:700px;width:100%;">
+        {{-- <img src="./images/slides/slide-02.jpg"  alt="Slajder"  style="height: auto;max-height:700px;width:100%;"> --}}
+
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('./images/slides/slide-02.jpg');">
+        <div class="container hero">
+            <h2 style="font-size:40px;">Podignite svoje poslovanje na viši nivo</h2>
+            <p style="padding-top:10px;padding-bottom:10px;font-size:15px;">Računovodstvena agencija Mediteran Cvijeta Panić</p>
+            <a href="/contact-v1"><button class="tp-caption flat-button-slider bg-white">Kontakt</button></a>
+        </div>
+    </div>
+
     <section class="flat-about style2">
         <div class="container">
             <div class="row">
@@ -216,14 +224,14 @@
                     <div class="widget-ft widget-services">
                         <h3 class="title">Brzi linkovi</h3>
                         <ul class="one-half first">
-                            <li><a href="/" title="">Pocetna</a></li>
+                            <li><a href="/" title="">Početna</a></li>
                             <li><a href="about" title="">O nama</a></li>
                             <li><a href="services" title="">Usluge</a></li>
                         </ul><!-- /.one-half -->
                         <ul class="one-half">
                             <li><a href="contact-v1" title="">Kontakt</a></li>
                             <li><a href="news" title="">Vijesti</a></li>
-                            <li><a href="about" title="">Nas tim</a></li>
+                            <li><a href="about" title="">Naš tim</a></li>
                         </ul><!-- /.one-half -->
                         <div class="clearfix"></div>
                     </div><!-- /.widget-services -->
@@ -233,7 +241,7 @@
                         <h3 class="title">Kontakt</h3>
                         <ul>
                             <li>
-                                Naša knjigovodstevan agencija se nalazi na Agrotržnom centru, Lamela II Bijeljina.
+                                Naša knjigovodstevana agencija se nalazi na Agrotržnom centru, Lamela II Bijeljina.
                                 Broj telefona za kontakt: 055/425-933 ili direktnim dolaskom u nasu kancelariju. Pozive za saradnju primamo radnim danima od 8 do 16h.
                             </li>
                         </ul>
