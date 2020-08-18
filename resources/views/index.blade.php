@@ -136,11 +136,7 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </header><!-- /header -->
-
-
-        <img src="./images/slides/slide-02.jpg"  alt="Slajder"  style="height:750px;width:100%;">
-
-
+        <img src="./images/slides/slide-02.jpg"  alt="Slajder"  style="height: auto;max-height:750px;width:100%;">
     <section class="flat-about style2">
         <div class="container">
             <div class="row">
