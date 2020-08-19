@@ -125,8 +125,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="widget-ft widget-about">
                             <div id="logo-ft">
-                                <a href="#" title="">
-                                    <h2 style="color:#1c4675;">Mediteran</h2>
+                                <a href="/" title="">
+                                    <h2 style="color:white;">Mediteran</h2>
                                 </a>
                             </div>
                             <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.

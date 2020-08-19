@@ -44,7 +44,7 @@
                                     <p class="input-info"><input type="text" name="name" id="name" value="" placeholder="Ime" required autocomplete="off"></p>
                                 </div>
                                 <div class="one-three">
-                                    <p class="input-info"><input type="email" name="email" id="email" value="" placeholder="Email" required autocomplete="off"></p>
+                                    <p class="input-info"><input type="email" name="email" id="email" value="" placeholder="E-mail" required autocomplete="off"></p>
                                 </div>
                                 <div class="one-three">
                                     <p class="input-info"><input type="text" name="subject" id="phone" value="" placeholder="Tema" required autocomplete="off"></p>

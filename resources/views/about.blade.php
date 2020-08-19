@@ -51,8 +51,8 @@
 								<img src="images/about/01.jpg" alt="Kancelarija">
 							</div>
 							<div class="text-about">
-								<h3>O nasoj agenciji</h3>
-								<p>Knjigovodstena agencija Mediteran se bavi pružanjem knjigovodstvenih i računovodstvenih usluga, vođenjem poslvnih knjiga za sve vrste djelatnosti preduzeća i preduzetnika. Vršimo internet i elektronsko poslovanje sa poreskom upravom i UIO, čime omogućavamo brže i efikasnije poslovanje.</p>
+								<h3>O našoj agenciji</h3>
+								<p>Knjigovodstena agencija Mediteran se bavi pružanjem knjigovodstvenih i računovodstvenih usluga, vođenjem poslovnih knjiga za sve vrste djelatnosti preduzeća i preduzetnika. Vršimo internet i elektronsko poslovanje sa poreskom upravom i UIO, čime omogućavamo brže i efikasnije poslovanje.</p>
 							</div>
 							<div class="wrap-imagebox">
 								<div class="one-three">

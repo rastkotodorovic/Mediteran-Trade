@@ -157,10 +157,12 @@
             <div class="row">
                 <div class="about-us style3">
                     <div class="flat-title style1">
-                        <h2>Nasa agencija Mediteran</h2>
+                        <h2>Naša agencija Mediteran</h2>
                     </div>
                     <div class="content">
-                        <p>Knjigovodstena agencija Mediteran se bavi pružanjem knjigovodstvenih i računovodstvenih usluga, vođenjem poslvnih knjiga za sve vrste djelatnosti preduzeća i preduzetnika. Vršimo internet i elektronsko poslovanje sa poreskom upravom i UIO, čime omogućavamo brže i efikasnije poslovanje.</p>
+                        <p>Knjigovodstena agencija Mediteran se bavi pružanjem knjigovodstvenih i računovodstvenih usluga, vođenjem poslovnih knjiga za sve vrste djelatnosti preduzeća i preduzetnika. Vršimo internet i elektronsko poslovanje sa poreskom upravom i UIO, čime omogućavamo brže i efikasnije poslovanje.</p>
+                        <br>
+                        <p><b>Akcija:</b> Prvi mjesec naših knjigovodstvenih usluga je besplatan.</p>
                     </div>
                     <div class="bottom">
                         <div class="btn-more">
@@ -212,8 +214,8 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="widget-ft widget-about">
                         <div id="logo-ft">
-                            <a href="#" title="">
-                                <h2 style="color:#1c4675;">Mediteran</h2>
+                            <a href="/" title="">
+                                <h2 style="color:white;">Mediteran</h2>
                             </a>
                         </div>
                         <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.
