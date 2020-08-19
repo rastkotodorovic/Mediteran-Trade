@@ -27,8 +27,6 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i&display=swap" media="all" />
 
-    {{-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" media="all" /> --}}
-
     <!-- Theme style -->
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
 
@@ -142,7 +140,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="hero">
-                        <h2 style="font-size: 40px;
+                        <h2 style="font-size: 35px;
                         font-weight: bold;">Podignite svoje poslovanje na viši nivo</h2>
                         <br>
                         <p>Računovodstvena agencija Mediteran Cvijeta Panić</p>

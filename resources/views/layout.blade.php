@@ -18,6 +18,8 @@
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i&display=swap" media="all" />
+
 	<link rel="preload" as="style" href="{{ asset('stylesheet/font-awesome.css') }}">
 
     <link rel="preload" as="style" href="{{ asset('stylesheet/ionicons.css') }}">
@@ -55,11 +57,6 @@
 </head>
 <body>
 	<div class="boxed blog" id="app">
-		<!-- Preloader -->
-		<div id="loading-overlay">
-			<div class="loader"></div>
-		</div>
-
 		<header id="header" class="header bg-color">
 			<div class="container">
 				<div class="row">
