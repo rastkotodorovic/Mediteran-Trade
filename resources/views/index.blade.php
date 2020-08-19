@@ -249,7 +249,7 @@
                         <ul>
                             <li>
                                 Naša knjigovodstevana agencija se nalazi na Agrotržnom centru, Lamela II Bijeljina.
-                                Broj telefona za kontakt: 055/425-933 ili direktnim dolaskom u nasu kancelariju. Pozive za saradnju primamo radnim danima od 8 do 16h.
+                                Broj telefona za kontakt: 055/425-933 ili direktnim dolaskom u našu kancelariju. Pozive za saradnju primamo radnim danima od 8 do 16h.
                             </li>
                         </ul>
                     </div><!-- /.widget-services -->

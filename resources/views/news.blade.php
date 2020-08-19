@@ -20,7 +20,7 @@
                             <h1 class="h1-title">Vijesti</h1>
                         </div><!-- /.page-title-heading -->
                         <ul class="breadcrumbs">
-                            <li><a href="/" title="">Pocetna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                            <li><a href="/" title="">Početna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
                             <li>Vijesti</li>
                         </ul><!-- /.breadcrumbs -->
                     </div>

@@ -21,7 +21,7 @@
                             <h1 class="h1-title">Kontakt</h1>
                         </div><!-- /.page-title-heading -->
                         <ul class="breadcrumbs">
-                            <li><a href="/" title="">Pocetna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                            <li><a href="/" title="">Početna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
                             <li>Kontakt</li>
                         </ul><!-- /.breadcrumbs -->
                     </div>

@@ -21,7 +21,7 @@
                             <h1 class="h1-title">Usluge</h1>
                         </div><!-- /.page-title-heading -->
                         <ul class="breadcrumbs">
-                            <li><a href="/" title="">Pocetna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                            <li><a href="/" title="">Početna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
                             <li>Usluge</li>
                         </ul><!-- /.breadcrumbs -->
                     </div>
@@ -35,7 +35,7 @@
                 <div class="col-md-12">
                     <div class="wrap-services">
                         <h2>Neke od naših mnogobrojnih usluga</h2>
-                        <p>Računovodstvena agencija Mediteran vam pruza veliki asortiman usluga. Ovdje su navedene neke od osnovnih.</p>
+                        <p>Računovodstvena agencija Mediteran vam pruža veliki asortiman usluga. Ovdje su navedene neke od osnovnih.</p>
                     </div>
                 </div>
             </div>

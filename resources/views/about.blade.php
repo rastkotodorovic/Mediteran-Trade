@@ -20,7 +20,7 @@
 							<h1 class="h1-title">O nama</h1>
 						</div><!-- /.page-title-heading -->
 						<ul class="breadcrumbs">
-							<li><a href="/" title="">Pocetna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+							<li><a href="/" title="">Početna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 							<li>O nama</li>
 						</ul><!-- /.breadcrumbs -->
 					</div>
@@ -34,10 +34,10 @@
 				<div class="wrap-about">
 					<div class="sidebar-about">
 						<div class="widget-nav-tab">
-							<h3>nasa agencija</h3>
+							<h3>Naša agencija</h3>
 							<ul class="tab-about">
 								<li class="active">O Nama</li>
-								<li>Nas tim</li>
+								<li>Naš tim</li>
 							</ul>
 						</div>
 						<div class="widget-brochures">
@@ -103,7 +103,7 @@
 										</div>
 										<div class="team-content">
 											<div class="name">
-												Cvijeta Panic
+												Cvijeta Panić
 											</div>
 											<div class="options">
 												Vlasnik
@@ -111,7 +111,7 @@
 										</div>
 										<div class="team-content hover">
 											<div class="name">
-												Cvijeta Panic
+												Cvijeta Panić
 											</div>
 											<div class="options">
 												Vlasnik
@@ -133,7 +133,7 @@
 										</div>
 										<div class="team-content">
 											<div class="name">
-												Slavica Panic
+												Slavica Panić
 											</div>
 											<div class="options">
 												Knjigovodja
@@ -141,7 +141,7 @@
 										</div>
 										<div class="team-content hover">
 											<div class="name">
-												Slavica Panic
+												Slavica Panić
 											</div>
 											<div class="options">
 												Knjigovodja
