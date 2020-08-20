@@ -8,9 +8,11 @@
 	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 	<title>Racunovodstvena Agencija Mediteran Cvijeta Panic</title>
 
-    <meta name="keywords" content="Racunovodstvo Bijeljina, Knjigovodstvo Bijeljina, Mediteran Bijeljina, Cvijeta Panic, Racunovodstvena agencija Mediteran, Mediteran Cvijeta Panic">
+    <meta name="keywords" content="Racunovodstvo, Knjigovodstvo, Mediteran Cvijeta Panic, Racunovodstvena agencija Mediteran, Bijeljina">
 
-    <meta name="description" content="Racunovodstvena agencija u Bijeljini. Usluge:Knjizenje dokumenata, Izrada obracuna, Obracun plata, Obracun PDV-a...">
+    <meta name="description" content="Racunovodstvena agencija, Bijeljina. Usluge:racunovodstvo, knjigovodstvo">
+
+	<meta name="author" content="Rastko Todorovic">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

@@ -9,11 +9,11 @@
 	<title>@yield('title') | Racunovodstvena Agencija Mediteran Cvijeta Panic</title>
 
 	@yield('meta')
-    <meta name="keywords" content="Racunovodstvo Bijeljina, Knjigovodstvo Bijeljina, Mediteran Bijeljina, Cvijeta Panic, Racunovodstvena agencija Mediteran">
+    <meta name="keywords" content="Racunovodstvo, Knjigovodstvo, Mediteran Cvijeta Panic, Racunovodstvena agencija Mediteran, Bijeljina">
 
-    <meta name="description" content="Racunovodstvena agencija u Bijeljini. Usluge:racunovodstvo, knjigovodstvo">
+    <meta name="description" content="Racunovodstvena agencija, Bijeljina. Usluge:racunovodstvo, knjigovodstvo">
 
-	<meta name="author" content="themsflat.com">
+	<meta name="author" content="Rastko Todorovic">
 
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
