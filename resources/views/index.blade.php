@@ -137,7 +137,7 @@
     </header><!-- /header -->
         {{-- <img src="./images/slides/slide-02.jpg"  alt="Slajder"  style="height: auto;max-height:700px;width:100%;"> --}}
 
-    <div class="jumbotron jumbotron-fluid" style="background-image: url('./images/slides/slide-02.jpg');">
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('./images/slides/slide-01.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
