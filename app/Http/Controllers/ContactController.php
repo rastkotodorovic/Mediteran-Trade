@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Zttp\Zttp;
 use App\Contact;
 use App\Mail\ContactMe;
 use Illuminate\Http\Request;
@@ -18,6 +19,17 @@ class ContactController extends Controller
 
     public function store(ContactRequest $request)
     {
+        $response = Zttp::asFormParams()
+            ->post('https://www.google.com/recaptcha/api/siteverify', [
+                'secret' => config('services.recaptcha.secret'),
+                'response' => request()->input('g-recaptcha-response'),
+                'remoteip' => $_SERVER['REMOTE_ADDR'],
+            ]);
+
+        if(! $response->json()['success']) {
+            return back();
+        }
+
         $contact = Contact::create($request->validated());
 
         Mail::to('cvijetapanic2@gmail.com')

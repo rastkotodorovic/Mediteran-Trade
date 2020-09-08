@@ -10,6 +10,10 @@
 
 @endsection
 
+@section('head')
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+@endsection
+
 @section('content')
 
     <div class="page-title parallax parallax2">
@@ -53,6 +57,7 @@
                             <div class="input-text">
                                 <textarea id="message-contact" name="message" placeholder="Poruka" required autocomplete="off"></textarea>
                             </div>
+                            <div class="g-recaptcha" data-sitekey="6LdWZ8kZAAAAAJ6aYQkI_xfPtZkhyAfmXJLI7Ydw"></div>
                             <div class="btn-submit">
                                 <button>Posalji</button>
                             </div>
