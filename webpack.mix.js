@@ -11,7 +11,12 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.styles([
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css')
+    .sass('resources/sass/toastr.scss', 'public/css');
+
+
+ mix.styles([
     'public/stylesheet/bootstrap.min.css',
     'public/revolution/css/layers.css',
     'public/revolution/css/settings.css',

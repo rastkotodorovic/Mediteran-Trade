@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Service;
 use Illuminate\Http\Request;
 use App\Http\Requests\ServiceRequest;
+use Illuminate\Support\Facades\Session;
 
 class ServiceController extends Controller
 {
@@ -19,8 +20,9 @@ class ServiceController extends Controller
     {
         Service::create($request->validated());
 
-        return back()
-            ->with('flash', "Uspjesno ste dodali uslugu.");
+        Session::flash('success', 'You have successfully added a reply!');
+
+        return back();
     }
 
     public function edit(Service $service)

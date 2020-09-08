@@ -61,7 +61,9 @@
 	<!-- Favicon and touch icons  -->
     <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed">
     <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
-    <link href="icon/favicon.png" rel="shortcut icon">
+	<link href="icon/favicon.png" rel="shortcut icon">
+	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/toastr.css') }}" rel="stylesheet">
 	@yield('head')
 </head>
 <body>
@@ -210,10 +212,8 @@
 				<i class="fa fa-chevron-up"></i>
 			</a>
 		</div>
-		<component-flash message="{{ session('flash') }}"></component-flash>
 	</div> <!-- /.boxed -->
 	<script src="{{ asset('js/app.js') }}"></script>
-
 	<!-- Javascript -->
 	<script type="text/javascript" src="javascript/jquery.min.js"></script>
 	<script type="text/javascript" src="javascript/tether.min.js"></script>
@@ -226,5 +226,6 @@
 	<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
 	<script type="text/javascript" src="javascript/waypoints.min.js"></script>
 	<script type="text/javascript" src="javascript/main.js"></script>
+
 </body>
 </html>
