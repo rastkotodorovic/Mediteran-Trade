@@ -62,8 +62,8 @@
     <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed">
     <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
 	<link href="icon/favicon.png" rel="shortcut icon">
-	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 	<link href="{{ asset('css/toastr.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 	@yield('head')
 </head>
 <body>
@@ -213,19 +213,67 @@
 			</a>
 		</div>
 	</div> <!-- /.boxed -->
-	<script src="{{ asset('js/app.js') }}"></script>
-	<!-- Javascript -->
-	<script type="text/javascript" src="javascript/jquery.min.js"></script>
-	<script type="text/javascript" src="javascript/tether.min.js"></script>
-	<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
-	<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
-	<script type="text/javascript" src="javascript/owl.carousel.js"></script>
-	<script type="text/javascript" src="javascript/jquery.easing.js"></script>
-	<script type="text/javascript" src="javascript/parallax.js"></script>
 
-	<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
-	<script type="text/javascript" src="javascript/waypoints.min.js"></script>
-	<script type="text/javascript" src="javascript/main.js"></script>
+	<!-- Javascript -->
+	<script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+	<script type="text/javascript" src="{{ asset('javascript/jquery.min.js') }}"></script>
+	<script type="text/javascript" src="{{ ('javascript/tether.min.js') }}"></script>
+	<script type="text/javascript" src="{{ ('javascript/bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ ('javascript/jquery.flexslider-min.js') }}"></script>
+	<script type="text/javascript" src="{{ ('javascript/owl.carousel.js') }}"></script>
+	<script type="text/javascript" src="{{ ('javascript/jquery.easing.js') }}"></script>
+	<script type="text/javascript" src="{{ ('javascript/parallax.js') }}"></script>
+
+	<script type="text/javascript" src="{{ ('javascript/jquery.cookie.js') }}"></script>
+	<script type="text/javascript" src="j{{ ('avascript/waypoints.min.js') }}"></script>
+	<script type="text/javascript" src="{{ ('javascript/main.js') }}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+	<script>
+		toastr.options = {
+			"closeButton": true,
+			"debug": false,
+			"newestOnTop": false,
+			"progressBar": true,
+			"positionClass": "toast-bottom-left",
+			"preventDuplicates": false,
+			"onclick": null,
+			"showDuration": "300",
+			"hideDuration": "1000",
+			"timeOut": "5000",
+			"extendedTimeOut": "1000",
+			"showEasing": "swing",
+			"hideEasing": "linear",
+			"showMethod": "fadeIn",
+			"hideMethod": "fadeOut"
+		}
+	</script>
+
+
+	@if (Session::has('success'))
+		<script>
+			toastr.success("{{ session("success") }}");
+		</script>
+	@endif
+
+	@if (Session::has('info'))
+		<script>
+			toastr.info("{{ session("info") }}");
+		</script>
+	@endif
+
+	@if (Session::has('warning'))
+		<script>
+			toastr.warning("{{ session("warning") }}");
+		</script>
+	@endif
+
+	@if (Session::has('error'))
+		<script>
+			toastr.error("{{ session("error") }}");
+		</script>
+	@endif
 
 </body>
 </html>

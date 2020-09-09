@@ -27,7 +27,8 @@ class ContactController extends Controller
             ]);
 
         if(! $response->json()['success']) {
-            return back();
+            return back()
+                ->with('error', 'Error! Recaptcha nije ispunjena.');
         }
 
         $contact = Contact::create($request->validated());
@@ -36,6 +37,6 @@ class ContactController extends Controller
             ->send(new ContactMe($contact));
 
         return redirect('contact-v1')
-            ->with('flash', 'Uspjesno ste poslali mejl.');
+            ->with('success', 'Uspjesno ste poslali mejl.');
     }
 }
