@@ -37,7 +37,7 @@
     <!-- Fancybox Style -->
     <link rel="stylesheet" type="text/css" href="stylesheet/fancybox.css">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i&display=swap" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 
     <!-- Theme style -->
 	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
@@ -57,6 +57,8 @@
     <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed">
     <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
     <link href="icon/favicon.png" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -152,12 +154,11 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="hero">
-                        <h2 style="font-size: 35px;
-                        font-weight: bold;">Podignite svoje poslovanje na viši nivo</h2>
+                        <h2 style="font-size: 35px;">Podignite svoje poslovanje na viši nivo</h2>
                         <br>
                         <p>Računovodstvena agencija Mediteran Cvijeta Panić</p>
                         <br>
-                        <a href="/contact-v1"><button class="tp-caption flat-button-slider bg-white">Kontakt</button></a>
+                        <a href="/contact-v1"><button>Kontakt</button></a>
                     </div>
                 </div>
             </div>
@@ -172,13 +173,13 @@
                         <h2>Naša agencija Mediteran</h2>
                     </div>
                     <div class="content">
-                        <p>Knjigovodstena agencija Mediteran se bavi pružanjem knjigovodstvenih i računovodstvenih usluga, vođenjem poslovnih knjiga za sve vrste djelatnosti preduzeća i preduzetnika. Vršimo internet i elektronsko poslovanje sa poreskom upravom i UIO, čime omogućavamo brže i efikasnije poslovanje.</p>
+                        <p style="font-family: 'Alegreya Sans', sans-serif;font-size:16px;">Knjigovodstena agencija Mediteran se bavi pružanjem knjigovodstvenih i računovodstvenih usluga, vođenjem poslovnih knjiga za sve vrste djelatnosti preduzeća i preduzetnika. Vršimo internet i elektronsko poslovanje sa poreskom upravom i UIO, čime omogućavamo brže i efikasnije poslovanje.</p>
                         <br>
                         <p><b>Akcija:</b> Prvi mjesec naših knjigovodstvenih usluga je besplatan.</p>
                     </div>
                     <div class="bottom">
                         <div class="btn-more">
-                           <a href="about" title="">Procitaj vise</a>
+                           <a href="about" title="">Pročitaj vise</a>
                         </div>
                     </div>
                 </div>
@@ -236,6 +237,11 @@
                             <li>
                                 <a href="#" title="">
                                     <i class="fa fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="">
+                                    <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
                         </ul>
