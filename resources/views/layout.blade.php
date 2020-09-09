@@ -147,7 +147,12 @@
                                     <a href="#" title="">
                                         <i class="fa fa-facebook-f"></i>
                                     </a>
-                                </li>
+								</li>
+								<li>
+									<a href="#" title="">
+										<i class="fa fa-instagram"></i>
+									</a>
+								</li>
                             </ul>
                         </div><!-- /.widget-text -->
                     </div><!-- /.col-md-3 col-sm-6 -->
@@ -227,7 +232,6 @@
 	<script type="text/javascript" src="{{ ('javascript/jquery.cookie.js') }}"></script>
 	<script type="text/javascript" src="j{{ ('avascript/waypoints.min.js') }}"></script>
 	<script type="text/javascript" src="{{ ('javascript/main.js') }}"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 	<script>
