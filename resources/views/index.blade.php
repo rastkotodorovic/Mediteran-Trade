@@ -20,7 +20,7 @@
 
     <meta name="keywords" content="Racunovodstvo, Knjigovodstvo, Mediteran Cvijeta Panic, Racunovodstvena agencija Mediteran, Bijeljina">
 
-    <meta name="description" content="Racunovodstvena agencija, Bijeljina. Usluge:racunovodstvo, knjigovodstvo">
+    <meta name="description" content="Racunovodstvena agencija, Bijeljina. Usluge: racunovodstvo , knjigovodstvo">
 
 	<meta name="author" content="Rastko Todorovic">
 
