@@ -81,7 +81,7 @@
                         </div>
                         <div class="iconbox-content">
                             <h4>+387 65 838 731</h4>
-                            <img src="{{ asset('images/mail.png') }}" alt="">
+                            <img src="{{ asset('images/mail.png') }}" alt="e-mail">
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="iconbox style3">
                         <div class="iconbox-icon">
-                            <span class="ti-settings"></span>
+                            <span class="{{ $service->icon }}"></span>
                         </div>
                         <div class="iconbox-content">
                             <h3>{{ $service->title }}</h3>

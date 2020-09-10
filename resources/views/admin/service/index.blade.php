@@ -9,6 +9,7 @@
                 <form method="POST" action="{{ route('service.store') }}">
                     @csrf
                     <input type="text" placeholder="Title" class="form-control" name="title"><br>
+                    <input type="text" placeholder="Icon" class="form-control" name="icon"><br>
                     <input type="text" placeholder="Body" class="form-control" name="body"><br>
                     <button class="btn btn-primary">Dodaj</button>
                 </form>

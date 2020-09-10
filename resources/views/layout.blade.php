@@ -29,6 +29,8 @@
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i&display=swap" media="all" />
 
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+
 	<link rel="preload" as="style" href="{{ asset('stylesheet/font-awesome.css') }}">
 
     <link rel="preload" as="style" href="{{ asset('stylesheet/ionicons.css') }}">
@@ -74,7 +76,7 @@
 					<div class="header-wrap">
 						<div id="logo" class="logo">
 							<a href="/" title="">
-								<h1>Mediteran</h1>
+								<h1 style="font-family: 'Alegreya Sans', sans-serif;">Mediteran</h1>
 							</a>
 						</div><!-- /#logo -->
 						<div class="flat-show-search">
@@ -137,7 +139,7 @@
                         <div class="widget-ft widget-about">
                             <div id="logo-ft">
                                 <a href="/" title="">
-                                    <h2 style="color:white;">Mediteran</h2>
+                                    <h2 style="color:white;font-family: 'Alegreya Sans', sans-serif;">Mediteran</h2>
                                 </a>
                             </div>
                             <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.
@@ -158,7 +160,7 @@
                     </div><!-- /.col-md-3 col-sm-6 -->
                     <div class="col-lg-3 col-md-6">
                         <div class="widget-ft widget-services">
-                            <h3 class="title">Brzi linkovi</h3>
+                            <h3 class="title" style="font-family: 'Alegreya Sans', sans-serif;">Brzi linkovi</h3>
                             <ul class="one-half first">
                                 <li><a href="/" title="">Početna</a></li>
                                 <li><a href="about" title="">O nama</a></li>
@@ -174,7 +176,7 @@
                     </div><!-- /.col-md-3 col-sm-6 -->
                     <div class="col-lg-3 col-md-6">
                         <div class="widget-ft widget-lastest">
-                            <h3 class="title">Kontakt</h3>
+                            <h3 class="title" style="font-family: 'Alegreya Sans', sans-serif;">Kontakt</h3>
                             <ul>
                                 <li>
 									Naša knjigovodstevana agencija se nalazi na Agrotržnom centru, Lamela II Bijeljina.
@@ -185,7 +187,7 @@
                     </div><!-- /.col-md-3 col-sm-6 -->
                     <div class="col-lg-3 col-md-6">
                         <div class="widget-ft widget-subscribe">
-                            <h3 class="title">Kontakt putem mail-a</h3>
+                            <h3 class="title" style="font-family: 'Alegreya Sans', sans-serif;">Kontakt putem mail-a</h3>
                             <form id="subscribe-form" action="#" method="post" accept-charset="utf-8" data-mailchimp="true">
                                 <div id="subscribe-content">
 									<a href="contact-v1">

@@ -18,6 +18,14 @@
                 <br>
                 <input
                     type="text"
+                    placeholder="Icon"
+                    class="form-control"
+                    name="icon"
+                    value="{{ $services->icon }}"
+                >
+                <br>
+                <input
+                    type="text"
                     placeholder="Body"
                     class="form-control"
                     name="body"
