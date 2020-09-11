@@ -180,7 +180,7 @@
 
 .wrap-error p {
     font-size: 16px;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     line-height: 27px;
 }
 
@@ -508,7 +508,7 @@
     color: #1c4675;
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     padding-right: 35px;
     position: relative;
 }
@@ -648,7 +648,7 @@
 }
 
 .team-item .team-content .name {
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     font-weight: 500;
     line-height: 27px;
     color: #252525;
@@ -1001,7 +1001,7 @@
     top: 0;
     color: #252525;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     font-weight: 600;
 }
 
@@ -1257,7 +1257,7 @@
     font-weight: 600;
     color: #000002;
     line-height: 16px;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     margin-bottom: 2px;
 }
 
@@ -1348,7 +1348,7 @@
 
 .about-company p {
     font-size: 16px;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     color: #c8dcf0;
     line-height: 27px;
     padding-right: 15px;
@@ -1708,7 +1708,7 @@
     font-size: 16px;
     font-weight: 600;
     color: #000002;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     margin-top: 15px;
 }
 
@@ -2057,7 +2057,7 @@
     padding: 10px 24px;
     color: #1e1e1e;
     font-weight: 600;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
      -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
@@ -2474,7 +2474,7 @@ ul.flat-pagination.style1 li.prev {
 }
 
 .case-single-content .top-icon span {
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     margin-right: 7px;
     font-size: 16px;
     font-weight: 500;
@@ -2875,7 +2875,7 @@ ul.flat-pagination.style1 li.prev {
     font-size: 35px;
     line-height: 104px;
     color: #252525;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 .table-pricing table tbody tr.price-number td:first-child {
@@ -2968,7 +2968,7 @@ ul.flat-pagination.style1 li.prev {
 .table-pricing.style1 table tbody tr td.title {
     font-size: 18px;
     font-weight: 500;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     color: #1c4671;
     width: 175px;
     border:none;
@@ -3201,7 +3201,7 @@ ul.flat-pagination.style1 li.prev {
 
 .box-submit p {
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 /* Flat News
@@ -3272,7 +3272,7 @@ ul.filter-wrap {
 ul.filter-wrap li {
     display: inline-block;
     font-weight: 500;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     color: #252525;
     cursor: pointer;
 }
@@ -3496,7 +3496,7 @@ ul.filter-wrap li:hover {
 .square .numb-count {
     font-size: 42px;
     color: #1c4675;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     margin-bottom: 12px;
     display: inline-block;
     position: relative;
@@ -3509,7 +3509,7 @@ ul.filter-wrap li:hover {
 .square.plus .numb-count:before {
     content: '+';
     position: absolute;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     top:0;
     right: -25px;
     font-size: 42px;
@@ -3519,7 +3519,7 @@ ul.filter-wrap li:hover {
 .square .text {
     color: #fff;
     font-size: 13px;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -3805,7 +3805,7 @@ ul.filter-wrap li:hover {
 
 .tab-list-about ul.tab-menu li {
     margin: 0 8px;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #1c4671;
@@ -4408,7 +4408,7 @@ ul.filter-wrap li:hover {
 
 .choose-item .box-top .title {
     font-size: 100px;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     color: #f2f2f2;
     font-weight: bold;
     line-height: 70px;
@@ -4418,7 +4418,7 @@ ul.filter-wrap li:hover {
 .choose-item .box-top span {
     position: absolute;
     font-size: 18px;
-    font-family: 'Montserrat';
+    font-family: 'Alegreya Sans', sans-serif;
     color: #1c4671;
     font-weight: 600;
     top: 22px;
@@ -4440,7 +4440,7 @@ ul.filter-wrap li:hover {
 .box-partner p {
 	color: #fff;
     line-height: 26px;
-	font-family: 'Montserrat';
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
 .box-partner h1 {

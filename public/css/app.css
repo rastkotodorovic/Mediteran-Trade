@@ -402,12 +402,12 @@
 .tp-caption.title-slide {
 	color: #222;
 	letter-spacing: 0px;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
 /* Sub title */
 .tp-caption.sub-title {
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -423,7 +423,7 @@
 	font-size: 14px;
 	border-radius: 30px;
 	font-weight: 700;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
 		-ms-transition: all 0.3s ease-in-out;
@@ -999,7 +999,7 @@ body {
 a {
 	text-decoration: none;
 	color: #979797;
-	font-family: 'Montserrat';
+	font-family: 'Alegreya Sans', sans-serif;
 	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
 		-ms-transition: all 0.3s ease-in-out;
@@ -1055,7 +1055,7 @@ input[type="submit"] {
     -o-border-radius: 25px;
     -moz-border-radius: 25px;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1236,7 +1236,7 @@ blockquote p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 500;
 	color: #000002;
 }
@@ -1326,7 +1326,7 @@ h5 { font-size: 14px;}
 }
 
 .flat-infomation li {
-	font-family: 'Montserrat';
+	font-family: 'Alegreya Sans', sans-serif;
 	display: inline-block;
 	position: relative;
 	font-size: 12px;
@@ -2512,7 +2512,7 @@ article.main-post.style1 .entry-content {
 	color: #1e1e1e;
 	line-height: 1;
 	margin-bottom: 8px;
-	font-family: 'Montserrat';
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
 .comment-list li.comment article.comment-body .comment-text .comment-metadata .date {
@@ -2838,7 +2838,7 @@ article.main-single .direction ul li a:hover {
     color: #222222;
     font-weight: 700;
     font-size: 13px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     background-color: #f1f1f1;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;

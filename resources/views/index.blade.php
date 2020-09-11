@@ -156,7 +156,7 @@
                     <div class="hero">
                         <h2 style="font-size: 35px;">Podignite svoje poslovanje na viši nivo</h2>
                         <br>
-                        <p>Računovodstvena agencija Mediteran Cvijeta Panić</p>
+                        <p>Računovodstvena agencija Mediteran Cvijeta Panić vam pruza veliki asortiman usluga: računovodstvo, knjigovodstvo, elektronsko poslovanje i brojne druge.</p>
                         <br>
                         <a href="/contact-v1"><button>Kontakt</button></a>
                     </div>
