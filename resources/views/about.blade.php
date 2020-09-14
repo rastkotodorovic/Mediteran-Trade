@@ -58,7 +58,7 @@
 								<div class="one-three">
 									<div class="imagebox style2">
 										<div class="imagebox-image">
-											<img src="images/imagebox/04.jpg" alt="">
+											<img src="{{ asset('images/imagebox/office-work.jpg') }}" alt="Working in office">
 										</div>
 										<div class="imagebox-content">
 											<span class="ion-paper-airplane"></span>
@@ -70,7 +70,7 @@
 								<div class="one-three">
 									<div class="imagebox style2">
 										<div class="imagebox-image">
-											<img src="images/imagebox/05.jpg" alt="">
+											<img src="{{ asset('images/imagebox/office-tasks.jpg') }}" alt="Office tasks">
 										</div>
 										<div class="imagebox-content">
 											<span class="ion-star"></span>
@@ -82,12 +82,12 @@
 								<div class="one-three">
 									<div class="imagebox style2">
 										<div class="imagebox-image">
-											<img src="images/imagebox/06.jpg" alt="">
+											<img src="{{ asset('images/imagebox/office-meeting.jpg') }}" alt="Office meetings">
 										</div>
 										<div class="imagebox-content">
 											<span class="ion-heart"></span>
 											<h3><a href="#" title="">Povjerenje</a></h3>
-											<p>Povjerenje klijenata je nasa najveća satisfakcija i pokretač</p>
+											<p>Povjerenje i zadovoljstvo klijenata je naša najveća satisfakcija, pokretač i potreba  </p>
 										</div>
 									</div>
 								</div>
