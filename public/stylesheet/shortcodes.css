@@ -3543,7 +3543,7 @@ ul.filter-wrap li:hover {
 /* Flat Counter Style1
 -------------------------------------------------------------- */
 .flat-counter.style1 {
-    background:url(../images/parallax/10.jpg) top center repeat;
+    background-color: #1c4675;
     padding: 50px 0;
 }
 

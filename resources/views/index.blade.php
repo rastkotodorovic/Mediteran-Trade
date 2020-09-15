@@ -191,6 +191,9 @@
             </div>
         </div>
     </section>
+
+
+
     <section class="flat-iconbox style3">
         <div class="container">
             <div class="row">
@@ -217,6 +220,100 @@
             </div>
             <div class="btn-more">
                 <a href="/services" title="">Sve usluge</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="flat-tab-about scroll mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-list-about">
+                        <div class="content-tab">
+                            <div class="content-inner row">
+                                <div class="one-half">
+                                    <div class="text-tabs style1">
+                                        <div class="text-content">
+                                            <h2>Zašto izabrati nas?</h2>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                                        </div>
+                                        <div class="text-content">
+                                            <div class="text-list">
+                                                <div class="image">
+                                                    <img src="images/services/02.jpg" alt="Office" style>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        Lorem Ipsum is simply dummy text of
+                                                    </li>
+                                                    <li>
+                                                        And typesetting industry. Lorem Ipsum
+                                                    </li>
+                                                    <li>
+                                                        Has been the industry's standard dummy
+                                                    </li>
+                                                    <li>
+                                                        Ever since the 1500s, when an unknown
+                                                    </li>
+                                                </ul>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.text-tabs -->
+                                </div>
+                                <div class="one-half">
+                                    <div class="wrap-counter style1">
+                                        <div class="square style2 plus center">
+                                            <div class="counter-text">
+                                                <div class="numb-count" data-from="0" data-to="100" data-speed="2000" data-waypoint-active="yes">100</div>
+                                            <div class="text">
+                                                 Zadovoljnih klijenata
+                                            </div>
+                                            </div>
+                                            <div class="bg-image" >
+                                                <img src="images/page/counter-04.jpg" alt="">
+                                            </div>
+                                        </div><!-- /.square -->
+                                        <div class="square style2 center">
+                                            <div class="counter-text">
+                                                <div class="numb-count" data-from="0" data-to="35" data-speed="2000" data-waypoint-active="yes">35</div>
+                                                <div class="text">
+                                                    Godina poslovanja
+                                                </div>
+                                            </div>
+                                            <div class="bg-image">
+                                                <img src="images/page/counter-02.jpg" alt="">
+                                            </div>
+                                        </div><!-- /.square -->
+                                        <div class="square style2 center">
+                                            <div class="counter-text">
+                                                <div class="numb-count" data-from="0" data-to="2000" data-speed="2000" data-waypoint-active="yes">2000</div>
+                                            <div class="text">
+                                                Zavrsenih projekata
+                                            </div>
+                                            </div>
+                                            <div class="bg-image">
+                                                <img src="images/page/counter-03.jpg" alt="">
+                                            </div>
+                                        </div><!-- /.square -->
+                                        <div class="square style2 plus center">
+                                            <div class="counter-text">
+                                                <div class="numb-count" data-from="0" data-to="300" data-speed="2000" data-waypoint-active="yes">300</div>
+                                            <div class="text">
+                                                 Usoješnih saradnji
+                                            </div>
+                                            </div>
+                                            <div class="bg-image">
+                                                <img src="images/page/counter-01.jpg" alt="">
+                                            </div>
+                                        </div><!-- /.square -->
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
