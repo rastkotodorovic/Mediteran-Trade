@@ -45,17 +45,29 @@
                             @csrf
                             <div class="field-row">
                                 <div class="one-three">
-                                    <p class="input-info"><input type="text" name="name" id="name" value="" placeholder="Ime" required autocomplete="off"></p>
+                                    <p class="input-info"><input type="text" name="name" id="name" value="{{ old('name') }}" placeholder="Ime" required autocomplete="off"></p>
+                                    @error('name')
+                                        <div class="alert alert-danger" style="margin-top:20px;">{{ $message }}</div>
+                                    @enderror
                                 </div>
                                 <div class="one-three">
-                                    <p class="input-info"><input type="email" name="email" id="email" value="" placeholder="E-mail" required autocomplete="off"></p>
+                                    <p class="input-info"><input type="email" name="email" id="email" value="{{ old('email') }}" placeholder="E-mail" required autocomplete="off"></p>
+                                    @error('email')
+                                        <div class="alert alert-danger" style="margin-top:20px;">{{ $message }}</div>
+                                    @enderror
                                 </div>
                                 <div class="one-three">
-                                    <p class="input-info"><input type="text" name="subject" id="phone" value="" placeholder="Tema" required autocomplete="off"></p>
+                                    <p class="input-info"><input type="text" name="subject" id="phone" value="{{ old('subject') }}" placeholder="Tema" required autocomplete="off"></p>
+                                    @error('subject')
+                                        <div class="alert alert-danger" style="margin-top:20px;">{{ $message }}</div>
+                                    @enderror
                                 </div>
                             </div>
                             <div class="input-text">
-                                <textarea id="message-contact" name="message" placeholder="Poruka" required autocomplete="off"></textarea>
+                                <textarea id="message-contact" name="message" placeholder="Poruka" required autocomplete="off">{{ old('message') }}</textarea>
+                                @error('message')
+                                    <div class="alert alert-danger" style="margin-top:20px;">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="g-recaptcha" data-sitekey="6LdWZ8kZAAAAAJ6aYQkI_xfPtZkhyAfmXJLI7Ydw"></div>
                             <div class="btn-submit">
