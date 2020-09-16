@@ -33,8 +33,8 @@ class ContactController extends Controller
 
         $contact = Contact::create($request->validated());
 
-        // Mail::to('cvijetapanic2@gmail.com')
-        //     ->send(new ContactMe($contact));
+        Mail::to('cvijetapanic2@gmail.com')
+            ->send(new ContactMe($contact));
 
         return redirect('contact-v1')
             ->with('success', 'Uspjesno ste poslali mejl.');
