@@ -72,6 +72,3 @@ Route::get('home', function () {
     return view('home');
 });
 
-Route::fallback(function () {
-    return view('404');
-});
