@@ -2,6 +2,7 @@
 
 use App\News;
 use App\Service;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -69,4 +70,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('home', function () {
     return view('home');
+});
+
+Route::fallback(function () {
+    return view('404');
 });

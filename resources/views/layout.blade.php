@@ -74,7 +74,7 @@
 					<div class="header-wrap">
 						<div id="logo" class="logo">
 							<a href="/" title="">
-								<h1 style="font-family: 'Alegreya Sans', sans-serif;">Mediteran</h1>
+								<img src="{{ asset('images/logo.svg') }}" alt="logo">
 							</a>
 						</div><!-- /#logo -->
 						<div class="flat-show-search">
@@ -137,7 +137,7 @@
                         <div class="widget-ft widget-about">
                             <div id="logo-ft">
                                 <a href="/" title="">
-                                    <h2 style="color:white;font-family: 'Alegreya Sans', sans-serif;">Mediteran</h2>
+                                    <img src="{{ asset('images/logo.svg') }}" alt="logo">
                                 </a>
                             </div>
                             <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.

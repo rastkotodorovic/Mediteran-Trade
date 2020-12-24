@@ -70,7 +70,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div id="logo" class="logo">
                         <a href="/" title="">
-                            <h1>Mediteran</h1>
+                            <img src="{{ asset('images/logo.svg') }}" alt="logo">
                         </a>
                     </div><!-- /#logo -->
                 </div>
@@ -156,7 +156,7 @@
                     <div class="hero">
                         <h2 style="font-size: 35px;">Podignite svoje poslovanje na viši nivo</h2>
                         <br>
-                        <p>Računovodstvena agencija Mediteran Cvijeta Panić vam pruža veliki asortiman usluga: računovodstvo, knjigovodstvo, elektronsko poslovanje i brojne druge.</p>
+                        <p><h1 style="font-size: 16px; display: inline;">Računovodstvena agencija Mediteran Cvijeta Panić</h1> vam pruža veliki asortiman usluga: računovodstvo, knjigovodstvo, elektronsko poslovanje i brojne druge.</p>
                         <br>
                         <a href="/contact-v1"><button>Kontakt</button></a>
                     </div>
@@ -235,25 +235,27 @@
                                     <div class="text-tabs style1">
                                         <div class="text-content">
                                             <h2>Zašto izabrati nas?</h2>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                                            <p>
+                                                Od svog računovodstva uvijek možete dobiti i savjet prilikom donošenja odluka.Nema potrebe da učite sve zakone i propise, osnovali ste firmu kako biste se bavili onim što znate.
+                                            </p>
                                         </div>
                                         <div class="text-content">
                                             <div class="text-list">
                                                 <div class="image">
-                                                    <img src="images/services/02.jpg" alt="Office" style>
+                                                    <img src="images/services/02.jpg" alt="Office">
                                                 </div>
                                                 <ul>
                                                     <li>
-                                                        Lorem Ipsum is simply dummy text of
+                                                        Savjeti pri donošenju odluka
                                                     </li>
                                                     <li>
-                                                        And typesetting industry. Lorem Ipsum
+                                                        Radite samo ono što volite
                                                     </li>
                                                     <li>
-                                                        Has been the industry's standard dummy
+                                                        Sposobnost donosi rezultate
                                                     </li>
                                                     <li>
-                                                        Ever since the 1500s, when an unknown
+                                                        Vodimo vaše poslovanje
                                                     </li>
                                                 </ul>
                                                 <div class="clearfix"></div>
@@ -318,6 +320,20 @@
         </div>
     </section>
 
+    <section class="flat-submit style3 parallax parallax1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box-submit">
+                            <h2>Mi smo vaši povjerljivi partneri</h2>
+                            <p>Znanje i povjerenje su naše osnovne vrijednosti. Svima je potreban partner kojem mogu vjerovati, koji prati i usmjerava njihovo poslovanje da bi ono istovremeno bilo usklađeno sa zakonima i ekonomično.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="particles-js"></div>
+        </section>
+
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -325,7 +341,7 @@
                     <div class="widget-ft widget-about">
                         <div id="logo-ft">
                             <a href="/" title="">
-                                <h2 style="color:white;">Mediteran</h2>
+                                <img src="{{ asset('images/logo.svg') }}" alt="logo">
                             </a>
                         </div>
                         <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.
