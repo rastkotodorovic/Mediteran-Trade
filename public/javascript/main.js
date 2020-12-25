@@ -1232,16 +1232,7 @@
         }
     }
 
-    var retinaLogos = function() {
-      var retina = window.devicePixelRatio > 1 ? true : false;
-        if(retina) {
-            $('.logo').find('img').attr({src:'./images/logo@2x.png',width:'167',height:'100'});
-        }
 
-        if(retina) {
-            $('#logo-ft').find('img').attr({src:'./images/logo-ft@2x.png',width:'161',height:'100'});
-        }
-    };
 
     var removePreloader = function() {
         $(window).on("load", function () {
