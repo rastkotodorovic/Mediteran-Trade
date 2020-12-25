@@ -10,6 +10,12 @@
 
 @endsection
 
+@section('canonical')
+
+	{{ URL::current() }}
+
+@endsection
+
 @section('content')
 	<div class="page-title parallax parallax2">
 		<div class="title-heading">
