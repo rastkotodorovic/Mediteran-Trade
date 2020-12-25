@@ -22,6 +22,11 @@
 
 	<meta name="author" content="Rastko Todorovic">
 
+    <meta name="url" content="https://www.mediteran-bijeljina.com">
+
+    <meta property="og:title" content="Mediteran">
+    <meta property="og:image" content="{{ asset('images/m-logo.svg') }}">
+
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -66,9 +71,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
-                    <div id="logo" class="logo">
+                    <div class="logo">
                         <a href="/" title="">
-                            <img src="{{ asset('images/logo.svg') }}" alt="logo">
+                            <img src="{{ asset('images/m-logo.svg') }}" alt="logo">
                         </a>
                     </div><!-- /#logo -->
                 </div>
@@ -339,7 +344,7 @@
                     <div class="widget-ft widget-about">
                         <div id="logo-ft">
                             <a href="/" title="">
-                                <img src="{{ asset('images/logo.svg') }}" alt="logo">
+                                <img src="{{ asset('images/m-logo.svg') }}" alt="logo">
                             </a>
                         </div>
                         <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.

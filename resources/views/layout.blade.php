@@ -70,9 +70,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="header-wrap">
-						<div id="logo" class="logo">
+						<div class="logo">
 							<a href="/" title="">
-								<img src="{{ asset('images/logo.svg') }}" alt="logo">
+								<img src="{{ asset('images/m-logo.svg') }}" alt="logo">
 							</a>
 						</div><!-- /#logo -->
 						<div class="flat-show-search">
@@ -135,7 +135,7 @@
                         <div class="widget-ft widget-about">
                             <div id="logo-ft">
                                 <a href="/" title="">
-                                    <img src="{{ asset('images/logo.svg') }}" alt="logo">
+                                    <img src="{{ asset('images/m-logo.svg') }}" alt="logo">
                                 </a>
                             </div>
                             <p>Prvi mjesec naših knjigovodstvenih usluga je besplatan.
