@@ -22,6 +22,11 @@
 
 	<meta name="author" content="Rastko Todorovic">
 
+	<meta property="og:title" content="Mediteran">
+    <meta property="og:type" content="Accounting agency">
+    <meta property="og:description" content="Računovodstvena agencija Mediteran Cvijeta Panić vam pruža veliki asortiman usluga: računovodstvo, knjigovodstvo, elektronsko poslovanje i brojne druge.">
+    <meta property="og:image" content="{{ asset('images/m-logo.svg') }}">
+
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
