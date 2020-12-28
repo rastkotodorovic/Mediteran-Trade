@@ -12,7 +12,7 @@
 
 @section('canonical')
 
-	{{ URL::current() }}
+	<link rel="canonical" href="https://mediteran-bijeljina.com/services"/>
 
 @endsection
 

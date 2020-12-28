@@ -25,7 +25,7 @@
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="canonical" href="@yield('canonical')"/>
+	@yield('canonical')
 
 	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 

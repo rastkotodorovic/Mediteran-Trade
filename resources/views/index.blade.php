@@ -27,7 +27,7 @@
     <meta property="og:title" content="Mediteran">
     <meta property="og:image" content="{{ asset('images/m-logo.svg') }}">
 
-    <link rel="canonical" href="{{ URL::current() }}"/>
+    <link rel="canonical" href="https://mediteran-bijeljina.com/"/>
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
