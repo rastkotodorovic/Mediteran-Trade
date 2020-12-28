@@ -3197,7 +3197,7 @@ jQuery.extend( jQuery.easing,
 		return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
 	},
 	easeInOutBack: function (x, t, b, c, d, s) {
-		if (s == undefined) s = 1.70158;
+		if (s == undefined) s = 1.70158; 
 		if ((t/=d/2) < 1) return c/2*(t*t*(((s*=(1.525))+1)*t - s)) + b;
 		return c/2*((t-=2)*t*(((s*=(1.525))+1)*t + s) + 2) + b;
 	},
@@ -3246,8 +3246,8 @@ http://www.gnu.org/licenses/gpl.html
 		var getHeight;
 		var firstTop;
 		var paddingTop = 0;
-
-		//get the starting position of each element to have parallax applied to it
+		
+		//get the starting position of each element to have parallax applied to it		
 		jQuerythis.each(function(){
 		    firstTop = jQuerythis.offset().top;
 		});
@@ -3261,15 +3261,15 @@ http://www.gnu.org/licenses/gpl.html
 				return jqo.height();
 			};
 		}
-
+			
 		// setup defaults if arguments aren't specified
 		if (arguments.length < 1 || xpos === null) xpos = "50%";
 		if (arguments.length < 2 || speedFactor === null) speedFactor = 0.1;
 		if (arguments.length < 3 || outerHeight === null) outerHeight = true;
-
+		
 		// function to be called whenever the window is scrolled or resized
 		function update(){
-			var pos = jQuerywindow.scrollTop();
+			var pos = jQuerywindow.scrollTop();				
 
 			jQuerythis.each(function(){
 				var jQueryelement = jQuery(this);
@@ -3286,7 +3286,7 @@ http://www.gnu.org/licenses/gpl.html
 
 
 			});
-		}
+		}		
 
 		jQuerywindow.bind('scroll', update).resize(update);
 		update();
@@ -3421,7 +3421,7 @@ var e;t?(t=n.makeArray(t),e=this.getItems(t)):e=this.items,this._getSorters(),th
 
 $.fn.owlRemoveItem = function(num) {
 	var owl_data = $(this).data('owlCarousel');
-
+	
 	owl_data._items = $.map(owl_data._items, function(data, index) {
 		if(index != num) return data;
 	})
@@ -3433,7 +3433,7 @@ $.fn.owlFilter = function(data, callback) {
 	var owl = this,
 		owl_data = $(owl).data('owlCarousel'),
 		$elemCopy = $('<div>').css('display', 'none');
-
+	
 	/* check attr owl-clone exist */
 	if(typeof($(owl).data('owl-clone')) == 'undefined') {
 		$(owl).find('.owl-item:not(.cloned)').clone().appendTo($elemCopy);
@@ -3441,17 +3441,17 @@ $.fn.owlFilter = function(data, callback) {
 	}else {
 		$elemCopy = $(owl).data('owl-clone');
 	}
-
+	
 	/* clear content */
 	owl.trigger('replace.owl.carousel', ['<div/>']);
-
+	
 	switch(data){
-		case '*':
+		case '*': 
 			$elemCopy.children().each(function() {
 				owl.trigger('add.owl.carousel', [$(this).clone()]);
 			})
 			break;
-		default:
+		default: 
 			$elemCopy.find(data).each(function() {
 				owl.trigger('add.owl.carousel', [$(this).parent().clone()]);
 			})
@@ -6897,7 +6897,6 @@ $.fn.owlFilter = function(data, callback) {
         filterImagebox();
         carousel_verticle();
         particles();
-        retinaLogos();
         removePreloader();
 
    	});

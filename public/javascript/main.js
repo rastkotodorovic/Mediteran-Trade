@@ -1290,7 +1290,6 @@
         filterImagebox();
         carousel_verticle();
         particles();
-        retinaLogos();
         removePreloader();
 
    	});

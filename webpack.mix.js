@@ -17,15 +17,6 @@ mix.js('resources/js/app.js', 'public/js')
 
 
  mix.styles([
-    'public/stylesheet/bootstrap.min.css',
-    'public/revolution/css/layers.css',
-    'public/revolution/css/settings.css',
-    'public/stylesheet/fancybox.css',
-    'public/stylesheet/style.css',
-    'public/stylesheet/colors/color1.css',
-    'public/stylesheet/responsive.css',
-    'public/stylesheet/animate.css',
-    'public/stylesheet/st.css',
 ],  'public/css/app.css')
     .scripts([
         'public/javascript/jquery.min.js',

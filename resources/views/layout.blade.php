@@ -221,16 +221,6 @@
 
 	<!-- Javascript -->
 	<script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
-	<script type="text/javascript" src="{{ asset('javascript/jquery.min.js') }}"></script>
-	<script type="text/javascript" src="{{ ('javascript/tether.min.js') }}"></script>
-	<script type="text/javascript" src="{{ ('javascript/bootstrap.min.js') }}"></script>
-	<script type="text/javascript" src="{{ ('javascript/jquery.flexslider-min.js') }}"></script>
-	<script type="text/javascript" src="{{ ('javascript/owl.carousel.js') }}"></script>
-	<script type="text/javascript" src="{{ ('javascript/jquery.easing.js') }}"></script>
-	<script type="text/javascript" src="{{ ('javascript/parallax.js') }}"></script>
-
-	<script type="text/javascript" src="{{ ('javascript/jquery.cookie.js') }}"></script>
-	<script type="text/javascript" src="j{{ ('avascript/waypoints.min.js') }}"></script>
 	<script type="text/javascript" src="{{ ('javascript/main.js') }}"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
