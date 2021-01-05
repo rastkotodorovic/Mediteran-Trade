@@ -26,7 +26,11 @@
                             <h1 class="h1-title">Vijesti</h1>
                         </div><!-- /.page-title-heading -->
                         <ul class="breadcrumbs">
-                            <li><a href="/" title="">Početna<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                            <li>
+                                <a href="/" title="">
+                                    Početna<i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
                             <li>Vijesti</li>
                         </ul><!-- /.breadcrumbs -->
                     </div>
@@ -47,16 +51,16 @@
                                         target="_blank"
                                     >
                                 </div><!-- /.featured-post -->
-                                <div class="entry-content">
-                                    <div class="date">
-                                        {{ $article->created_at }}
-                                    </div>
-                                    <h3>
-                                        {{ $article->title }}
-                                    </h3>
-                                    <p>
-                                        {{ $article->body }}
-                                    </p>
+                                        <div class="entry-content">
+                                            <div class="date">
+                                                {{ $article->created_at }}
+                                            </div>
+                                            <h3>
+                                                {{ $article->title }}
+                                            </h3>
+                                            <p>
+                                                {{ $article->body }}
+                                            </p>
                                     </a>
                                 </div><!-- /.entry-content -->
                             </article>

@@ -27,7 +27,7 @@
     <meta property="og:title" content="Mediteran">
     <meta property="og:type" content="Accounting agency">
     <meta property="og:description" content="Računovodstvena agencija Mediteran Cvijeta Panić vam pruža veliki asortiman usluga: računovodstvo, knjigovodstvo, elektronsko poslovanje i brojne druge.">
-    <meta property="og:image" content="{{ asset('images/m-logo.svg') }}">
+    <meta property="og:image" content="{{ asset('images/icon.svg') }}">
 
     <link rel="canonical" href="https://mediteran-bijeljina.com/"/>
 
